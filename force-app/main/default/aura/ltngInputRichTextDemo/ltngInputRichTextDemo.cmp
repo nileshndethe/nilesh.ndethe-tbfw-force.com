@@ -1,0 +1,8 @@
+<aura:component >
+	<aura:attribute name="myVal" type="String" default="&lt;b>Hello&lt;/b>"/> 
+    <lightning:inputRichText value="{!v.myVal}" placeholder="Type something interesting">
+    </lightning:inputRichText>
+    <div aura:id="output" class="slds-box slds-text-longform">
+        <ui:outputRichText value="{!v.myVal}" />
+    </div>
+</aura:component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://ext-supt4-dev-ed-dev-ed.my.salesforce.com/services/oauth2/authorize</authorizeUrl>
+    <consumerKey>3MVG9i1HRpGLXp.qssDMSw72tsS6ueNkN5gOODP9xcXjZVgxY_W1.yLs6xFi6ZRrerXDM.u.0bSHjux66Gyfb</consumerKey>
+    <consumerSecret>RnMdg5Uu9dgirYPdz1RQRpZY/OgTQ582</consumerSecret>
+    <defaultScopes>refresh_token full</defaultScopes>
+    <executionUser>nilesh.ndethe-tbfw@force.com</executionUser>
+    <friendlyName>Smart Utilities</friendlyName>
+    <iconUrl>https://login.salesforce.com/icons/salesforce-black.png</iconUrl>
+    <includeOrgIdInIdentifier>true</includeOrgIdInIdentifier>
+    <providerType>Salesforce</providerType>
+    <registrationHandler>AutocreatedRegHandler</registrationHandler>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <tokenUrl>https://ext-supt4-dev-ed-dev-ed.my.salesforce.com/services/oauth2/token</tokenUrl>
+</AuthProvider>

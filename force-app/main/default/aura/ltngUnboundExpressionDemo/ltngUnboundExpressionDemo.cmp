@@ -1,0 +1,7 @@
+<aura:component >
+	<aura:attribute name="parentAttr" type="String" ></aura:attribute>    
+    
+    <ui:button aura:id="buttonHi" buttonTitle="Click to set parent attr as Hi there" class="button" label="Say Hi" press="{!c.setParentAttrHi}"/>
+	<ui:button aura:id="buttonBye" buttonTitle="Click to set parent attr as Bye there" class="button" label="Say Bye" press="{!c.setParentAttrBye}"/>
+    <c:ltngUnboundExpressionDemoChild aura:id="unbndChild" childAttr="{#v.parentAttr}" />
+</aura:component>

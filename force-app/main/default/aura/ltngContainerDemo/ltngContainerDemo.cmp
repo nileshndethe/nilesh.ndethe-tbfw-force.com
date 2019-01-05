@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="messageToSend" type="String"/> 
+    <aura:attribute name="messageReceived" type="String"/>
+    <lightning:container src="{!$Resource.angularApp + '/index.html'}"
+                               onmessage="{!c.handleMessage}"/>
+
+</aura:component>

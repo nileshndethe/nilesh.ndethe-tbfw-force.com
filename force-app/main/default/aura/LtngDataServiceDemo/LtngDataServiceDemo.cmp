@@ -1,0 +1,12 @@
+<aura:component >        
+
+<force:recordData aura:id="forceRecordCmp"                 
+                recordId="001B000000FxFwyIAF"
+                layoutType="FULL" 
+                fields="{Name,AccountNumber,AnnualRevenue,Active__c}" 
+                mode="VIEW"
+                targetRecord="{!v._record}" 
+                targetFields="{!v._fields}" 
+                targetError="{!v._error}"                 
+                 />
+</aura:component>

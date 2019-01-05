@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes" access="global" >
+    <aura:attribute name="Color" type="String" default="Black" />
+    <aura:attribute name="DivBackColor" type="String" default="Black" />
+    <aura:attribute name="DivTextColor" type="String" default="White" />
+    <aura:attribute name="DivText" type="String" default="This is test div for showing the selected background color. Add any test you want here for testing"/>
+    <div style="{!'background:' + v.DivBackColor +'; height:500px; width:100%'}">
+    	<p style="{!'color:' + v.DivTextColor + ';padding-top: 249px; text-align:center;font-size:20pt;'}">{!v.DivText}</p>
+    </div>
+</aura:component>

@@ -1,0 +1,6 @@
+<design:component >
+	<design:attribute name="Color" Label="Choose Background Color" Description="Choose Background color to apply to the div" datasource="Green, Blue, Gray, Maroon, Pink"/>
+    <design:attribute name="DivBackColor" Label="Choose Background Color" Description="Choose Background color to apply to the div" datasource="apex://MyLtngCustomPicklistDemo"/>
+    <design:attribute name="DivText" Label="Div Text" default="This is test div for showing the selected background color. Add any test you want here for testing" />
+    <design:attribute name="DivTextColor" Label="Div Text Color" datasource="apex://MyLtngCustomPicklistDemo"/>	
+</design:component>

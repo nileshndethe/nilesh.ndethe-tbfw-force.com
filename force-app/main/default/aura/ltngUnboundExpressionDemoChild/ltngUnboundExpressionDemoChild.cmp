@@ -1,0 +1,5 @@
+<aura:component >
+	<aura:attribute name="childAttr" type="string" ></aura:attribute>
+    <!--<aura:handler name="init" value="{!this}" action="{!c.doInit}"></aura:handler>-->
+    <b>child Attr =</b>{!v.childAttr}
+</aura:component>
