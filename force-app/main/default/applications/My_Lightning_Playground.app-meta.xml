@@ -4,6 +4,7 @@
         <headerColor>#EE4415</headerColor>
     </brand>
     <description>This is practice lightning application to try out my work on the lightning framwork.</description>
+    <formFactors>Small</formFactors>
     <formFactors>Large</formFactors>
     <label>My Playground</label>
     <navType>Standard</navType>

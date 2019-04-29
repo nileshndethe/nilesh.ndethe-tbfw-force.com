@@ -48,5 +48,5 @@
         <searchResultsAdditionalFields>Party</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>DataUsePurpose</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
