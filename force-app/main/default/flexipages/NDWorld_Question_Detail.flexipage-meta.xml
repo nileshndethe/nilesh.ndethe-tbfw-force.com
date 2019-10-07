@@ -118,7 +118,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Question Detail</masterLabel>
-    <pageTemplate>siteforce:twoColumnLayout</pageTemplate>
     <sobjectType>FeedItem</sobjectType>
+    <template>
+        <name>siteforce:twoColumnLayout</name>
+    </template>
     <type>CommRecordPage</type>
 </FlexiPage>

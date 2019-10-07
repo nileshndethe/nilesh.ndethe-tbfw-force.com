@@ -41,7 +41,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Account List</masterLabel>
-    <pageTemplate>siteforce:oneColumnLayout</pageTemplate>
     <sobjectType>Account</sobjectType>
+    <template>
+        <name>siteforce:oneColumnLayout</name>
+    </template>
     <type>CommObjectPage</type>
 </FlexiPage>

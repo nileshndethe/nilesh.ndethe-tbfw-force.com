@@ -49,7 +49,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Group Detail</masterLabel>
-    <pageTemplate>siteforce:oneColumnLayout</pageTemplate>
     <sobjectType>CollaborationGroup</sobjectType>
+    <template>
+        <name>siteforce:oneColumnLayout</name>
+    </template>
     <type>CommRecordPage</type>
 </FlexiPage>

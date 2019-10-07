@@ -207,6 +207,8 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>napili:themeLayout-home</masterLabel>
-    <pageTemplate>siteforce:napiliBody</pageTemplate>
+    <template>
+        <name>siteforce:napiliBody</name>
+    </template>
     <type>CommThemeLayoutPage</type>
 </FlexiPage>

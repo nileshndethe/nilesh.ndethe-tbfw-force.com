@@ -20,6 +20,7 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingColumn>ACCOUNT.NAME</groupingColumn>
+                <groupingSortProperties/>
                 <header>Test report for community</header>
                 <legendPosition>Bottom</legendPosition>
                 <report>unfiled$public/Test_report_for_community</report>
@@ -47,6 +48,7 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingColumn>ACCOUNT.NAME</groupingColumn>
+                <groupingSortProperties/>
                 <header>Test report for community</header>
                 <legendPosition>Bottom</legendPosition>
                 <report>unfiled$public/Test_report_for_community</report>
@@ -75,6 +77,7 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingColumn>ACCOUNT.NAME</groupingColumn>
+                <groupingSortProperties/>
                 <header>Test report for community</header>
                 <legendPosition>Bottom</legendPosition>
                 <report>unfiled$public/Test_report_for_community</report>
@@ -102,6 +105,7 @@
                 <enableHover>false</enableHover>
                 <expandOthers>true</expandOthers>
                 <groupingColumn>ACCOUNT.NAME</groupingColumn>
+                <groupingSortProperties/>
                 <header>Test report for community</header>
                 <legendPosition>Right</legendPosition>
                 <report>unfiled$public/Test_report_for_community</report>
@@ -126,6 +130,7 @@
                 <componentType>Gauge</componentType>
                 <gaugeMax>100.0</gaugeMax>
                 <gaugeMin>0.0</gaugeMin>
+                <groupingSortProperties/>
                 <header>Test report for community</header>
                 <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
                 <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
@@ -134,6 +139,7 @@
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
                 <report>unfiled$public/Test_report_for_community</report>
                 <showPercentage>true</showPercentage>
+                <showRange>false</showRange>
                 <showTotal>true</showTotal>
                 <showValues>false</showValues>
             </dashboardComponent>
@@ -148,6 +154,7 @@
                 <componentType>Table</componentType>
                 <drillEnabled>false</drillEnabled>
                 <drillToDetailEnabled>false</drillToDetailEnabled>
+                <groupingSortProperties/>
                 <header>Test report for community</header>
                 <report>unfiled$public/Test_report_for_community</report>
                 <showPicturesOnTables>false</showPicturesOnTables>
@@ -165,6 +172,7 @@
                     <column>RowCount</column>
                 </chartSummary>
                 <componentType>Metric</componentType>
+                <groupingSortProperties/>
                 <header>Test report for community</header>
                 <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
                 <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
@@ -172,6 +180,7 @@
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
                 <report>unfiled$public/Test_report_for_community</report>
+                <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>8</rowIndex>
             <rowSpan>2</rowSpan>

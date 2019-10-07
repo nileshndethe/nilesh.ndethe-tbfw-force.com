@@ -6,6 +6,7 @@
     <cases>
         <enableArticleCreation>false</enableArticleCreation>
         <enableArticlePublicSharingSites>false</enableArticlePublicSharingSites>
+        <enableCaseDataCategoryMapping>true</enableCaseDataCategoryMapping>
         <useProfileForPDFCreation>false</useProfileForPDFCreation>
     </cases>
     <defaultLanguage>en_US</defaultLanguage>
@@ -13,6 +14,11 @@
     <enableCreateEditOnArticlesTab>true</enableCreateEditOnArticlesTab>
     <enableExternalMediaContent>true</enableExternalMediaContent>
     <enableKnowledge>true</enableKnowledge>
+    <enableKnowledgeArticleTextHighlights>true</enableKnowledgeArticleTextHighlights>
+    <enableKnowledgeKeywordAutoComplete>true</enableKnowledgeKeywordAutoComplete>
+    <enableKnowledgeTitleAutoComplete>true</enableKnowledgeTitleAutoComplete>
+    <enableLightningKbAutoLoadRichTextField>true</enableLightningKbAutoLoadRichTextField>
+    <enableLightningKnowledge>true</enableLightningKnowledge>
     <showArticleSummariesCustomerPortal>true</showArticleSummariesCustomerPortal>
     <showArticleSummariesInternalApp>true</showArticleSummariesInternalApp>
     <showArticleSummariesPartnerPortal>true</showArticleSummariesPartnerPortal>
@@ -24,5 +30,15 @@
             </field>
         </caseFields>
         <useSuggestedArticlesForCase>true</useSuggestedArticlesForCase>
+        <workOrderFields>
+            <field>
+                <name>Subject</name>
+            </field>
+        </workOrderFields>
+        <workOrderLineItemFields>
+            <field>
+                <name>Subject</name>
+            </field>
+        </workOrderLineItemFields>
     </suggestedArticles>
 </KnowledgeSettings>

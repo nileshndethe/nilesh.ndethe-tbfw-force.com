@@ -27,7 +27,6 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Lightning Playground</masterLabel>
-    <pageTemplate>flexipage:defaultAppHomeTemplate</pageTemplate>
     <quickActionList>
         <quickActionListItems>
             <quickActionName>NewAccount</quickActionName>
@@ -63,5 +62,8 @@
             <quickActionName>NewGroup</quickActionName>
         </quickActionListItems>
     </quickActionList>
+    <template>
+        <name>flexipage:defaultAppHomeTemplate</name>
+    </template>
     <type>AppPage</type>
 </FlexiPage>

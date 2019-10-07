@@ -20,6 +20,7 @@
         </sections>
     </layouts>
     <recordTypes>
+        <description><!-- This can be used for simple question and answer articles --></description>
         <label><!-- FAQ --></label>
         <name>FAQ</name>
     </recordTypes>

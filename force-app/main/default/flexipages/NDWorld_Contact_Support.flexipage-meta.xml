@@ -87,6 +87,8 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Contact Support</masterLabel>
-    <pageTemplate>siteforce:oneColumnLayout</pageTemplate>
+    <template>
+        <name>siteforce:oneColumnLayout</name>
+    </template>
     <type>CommAppPage</type>
 </FlexiPage>

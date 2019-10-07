@@ -44,7 +44,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Report Detail</masterLabel>
-    <pageTemplate>siteforce:oneColumnLayout</pageTemplate>
     <sobjectType>Report</sobjectType>
+    <template>
+        <name>siteforce:oneColumnLayout</name>
+    </template>
     <type>CommRecordPage</type>
 </FlexiPage>

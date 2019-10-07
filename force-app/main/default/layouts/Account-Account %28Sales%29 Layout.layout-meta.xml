@@ -246,6 +246,11 @@
         <fields>CONTACT.TITLE</fields>
         <fields>CONTACT.EMAIL</fields>
         <fields>CONTACT.PHONE1</fields>
+        <fields>CONTACT.CREATED_DATE</fields>
+        <fields>CONTACT.DEPARTMENT</fields>
+        <fields>CONTACT.EMAIL_BOUNCED_DATE</fields>
+        <fields>CONTACT.EMAIL_OPT_OUT</fields>
+        <fields>CONTACT.FIRST_NAME</fields>
         <relatedList>RelatedContactList</relatedList>
     </relatedLists>
     <relatedLists>
@@ -296,6 +301,8 @@
         <relatedList>RelatedPartnerList</relatedList>
     </relatedLists>
     <relatedLists>
+        <fields>MEMBER_NAME</fields>
+        <fields>TEAM_MEMBER_ROLE</fields>
         <relatedList>RelatedAccountSalesTeam</relatedList>
     </relatedLists>
     <relatedLists>

@@ -29,6 +29,8 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Sfdc Page</masterLabel>
-    <pageTemplate>siteforce:sldsOneColLayout</pageTemplate>
+    <template>
+        <name>siteforce:sldsOneColLayout</name>
+    </template>
     <type>CommAppPage</type>
 </FlexiPage>

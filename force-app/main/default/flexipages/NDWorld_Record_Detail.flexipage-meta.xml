@@ -60,7 +60,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Record Detail</masterLabel>
-    <pageTemplate>siteforce:oneColumnLayout</pageTemplate>
     <sobjectType>Site</sobjectType>
+    <template>
+        <name>siteforce:oneColumnLayout</name>
+    </template>
     <type>CommRecordPage</type>
 </FlexiPage>

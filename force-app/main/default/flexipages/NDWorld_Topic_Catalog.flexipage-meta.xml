@@ -76,6 +76,8 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Topic Catalog</masterLabel>
-    <pageTemplate>siteforce:oneColumnLayout</pageTemplate>
+    <template>
+        <name>siteforce:oneColumnLayout</name>
+    </template>
     <type>CommAppPage</type>
 </FlexiPage>

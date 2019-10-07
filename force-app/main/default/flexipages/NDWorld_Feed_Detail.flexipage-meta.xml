@@ -29,7 +29,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Feed Detail</masterLabel>
-    <pageTemplate>siteforce:oneColumnLayout</pageTemplate>
     <sobjectType>FeedItem</sobjectType>
+    <template>
+        <name>siteforce:oneColumnLayout</name>
+    </template>
     <type>CommRecordPage</type>
 </FlexiPage>

@@ -60,7 +60,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Account Detail</masterLabel>
-    <pageTemplate>siteforce:oneColumnLayout</pageTemplate>
     <sobjectType>Account</sobjectType>
+    <template>
+        <name>siteforce:oneColumnLayout</name>
+    </template>
     <type>CommRecordPage</type>
 </FlexiPage>

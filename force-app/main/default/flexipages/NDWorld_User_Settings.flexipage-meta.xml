@@ -29,7 +29,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>User Settings</masterLabel>
-    <pageTemplate>siteforce:oneColumnLayout</pageTemplate>
     <sobjectType>User</sobjectType>
+    <template>
+        <name>siteforce:oneColumnLayout</name>
+    </template>
     <type>CommRecordPage</type>
 </FlexiPage>

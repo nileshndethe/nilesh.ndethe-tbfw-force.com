@@ -18,14 +18,17 @@ The Whole Enchilada: All notifications (Default)</inlineHelpText>
             <value>
                 <fullName>Bread &amp; Butter</fullName>
                 <default>false</default>
+                <label>Bread &amp; Butter</label>
             </value>
             <value>
                 <fullName>Meat &amp; Potatoes</fullName>
                 <default>true</default>
+                <label>Meat &amp; Potatoes</label>
             </value>
             <value>
                 <fullName>The Whole Enchilada</fullName>
                 <default>false</default>
+                <label>The Whole Enchilada</label>
             </value>
         </valueSetDefinition>
     </valueSet>

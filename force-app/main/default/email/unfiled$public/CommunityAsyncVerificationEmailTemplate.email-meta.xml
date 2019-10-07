@@ -7,4 +7,5 @@
     <style>none</style>
     <subject>Verify your identity in {!Community.Name}</subject>
     <type>text</type>
+    <uiType>Aloha</uiType>
 </EmailTemplate>

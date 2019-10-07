@@ -33,7 +33,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Related Record List</masterLabel>
-    <pageTemplate>siteforce:oneColumnLayout</pageTemplate>
     <sobjectType>Site</sobjectType>
+    <template>
+        <name>siteforce:oneColumnLayout</name>
+    </template>
     <type>CommRelatedListPage</type>
 </FlexiPage>

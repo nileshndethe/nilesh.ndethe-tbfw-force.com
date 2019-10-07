@@ -95,6 +95,8 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Search</masterLabel>
-    <pageTemplate>siteforce:oneColumnLayout</pageTemplate>
+    <template>
+        <name>siteforce:oneColumnLayout</name>
+    </template>
     <type>CommSearchResultPage</type>
 </FlexiPage>

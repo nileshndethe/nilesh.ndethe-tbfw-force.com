@@ -178,7 +178,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Topic Detail</masterLabel>
-    <pageTemplate>siteforce:twoColumnLayout</pageTemplate>
     <sobjectType>Topic</sobjectType>
+    <template>
+        <name>siteforce:twoColumnLayout</name>
+    </template>
     <type>CommRecordPage</type>
 </FlexiPage>

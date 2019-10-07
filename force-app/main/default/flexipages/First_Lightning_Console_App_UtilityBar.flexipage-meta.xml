@@ -44,6 +44,8 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>First Lightning Console App UtilityBar</masterLabel>
-    <pageTemplate>one:utilityBarTemplateDesktop</pageTemplate>
+    <template>
+        <name>one:utilityBarTemplateDesktop</name>
+    </template>
     <type>UtilityBar</type>
 </FlexiPage>
