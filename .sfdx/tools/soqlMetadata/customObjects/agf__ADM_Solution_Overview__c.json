@@ -1,0 +1,1762 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Record ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Owner ID",
+      "name": "OwnerId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "Group",
+        "User"
+      ],
+      "relationshipName": "Owner",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Solution Overview Name",
+      "name": "Name",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Big Marketing Push",
+      "name": "agf__Big_Marketing_Push__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Will this product enhancement or feature enablement require proactive communication from SFDC to customer Sys Admin's informing them of a behavior change or action they will be required to take?",
+      "label": "Customer Communication Required",
+      "name": "agf__Customer_Communication_Requirement__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yes",
+          "validFor": null,
+          "value": "Yes"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "No",
+          "validFor": null,
+          "value": "No"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Select this field if this feature or product enhancement will require proactive communication from Salesforce.com to customer System Administrators informing them of a behavior change or action they need to take.",
+      "label": "Customer communication required",
+      "name": "agf__Customer_communication_required__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": "Enter specific details of your features or feature enhancements which are customer impacting.",
+      "label": "Description",
+      "name": "agf__Description__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": "Which editions will your feature be enabled for?  Select all that apply.",
+      "label": "Editions",
+      "name": "agf__Editions__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Personal Edition",
+          "validFor": null,
+          "value": "Personal Edition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Group Edition",
+          "validFor": null,
+          "value": "Group Edition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Professional Edition",
+          "validFor": null,
+          "value": "Professional Edition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Enterprise Edition",
+          "validFor": null,
+          "value": "Enterprise Edition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Unlimited Edition",
+          "validFor": null,
+          "value": "Unlimited Edition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Developer Edition",
+          "validFor": null,
+          "value": "Developer Edition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "database.com",
+          "validFor": null,
+          "value": "database.com"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "multipicklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "If feature is associated to an Idea(s) on the Idea Exchange - enter URL(s) here and update the Ideas  themselves with comments & status changes.",
+      "label": "Enter Idea Exchange URL(s)",
+      "name": "agf__Enter_Idea_Exchange_URL__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Exception Date",
+      "name": "agf__Exception_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Off Cycle releases resulting in features being enabled outside of 24hrs of the release require Executive approval.\nThis approval is requested during the Weekly Review of Releases (WRoR) Meeting",
+      "label": "Exec Approval Received @ WRoR",
+      "name": "agf__Exec_Approval_Receved_WRoR__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "If feature requires additional license, please list license requirements, pricing here.",
+      "label": "If  \"YES\" - Explain License Type",
+      "name": "agf__Explain_License_Type__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Provide explicit details why no customer communication is required",
+      "label": "Explain if \"NO\" Customer Comm Required",
+      "name": "agf__Explain_if_no_customer_comm_required__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "External ID",
+      "name": "agf__External_ID__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "All features must be enabled with the release or within 24 hrs of the release.\n*No exceptions*",
+      "label": "Feature Enablement Timing",
+      "name": "agf__Feature_Enablement_Timeline__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "With Release",
+          "validFor": null,
+          "value": "With Release"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Post Scripts (within 24hrs)",
+          "validFor": null,
+          "value": "Post Scripts (within 24hrs)"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "BT Perm (within 24hrs)",
+          "validFor": null,
+          "value": "BT Perm (within 24hrs)"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Off Cycle (Requires Exec Approval)",
+          "validFor": null,
+          "value": "Off Cycle (Requires Exec Approval)"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Other",
+          "validFor": null,
+          "value": "Other"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Identify how this feature will be enabled for customers.  Note: Customers on the \"Do Not Auto Enable Features\" list will never have features automatically turned on unless they request it.",
+      "label": "Feature Availability",
+      "name": "agf__Feature_Enablement__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Enabled for organization and end users -- Respects DNAE",
+          "validFor": null,
+          "value": "Enabled for organization and end users -- Respects DNAE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Enabled for organization and end users -- Does not respect DNAE",
+          "validFor": null,
+          "value": "Enabled for organization and end users -- Does not respect DNAE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Enabled for organization -- Requires system admin configuration",
+          "validFor": null,
+          "value": "Enabled for organization -- Requires system admin configuration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Not auto enabled -- BT perm must be enabled by Customer Support or PM",
+          "validFor": null,
+          "value": "Not auto enabled -- BT perm must be enabled by Customer Support or PM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Multiple features embedded in SO - See SO for enablement information",
+          "validFor": null,
+          "value": "Multiple features embedded in SO - See SO for enablement information"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Please indicate if feature requires additional license.",
+      "label": "Feature Requires License",
+      "name": "agf__Feature_Requires_Licence__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yes",
+          "validFor": null,
+          "value": "Yes"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "No",
+          "validFor": null,
+          "value": "No"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "If you chose 'OTHER' for your feature enablement timing, please provide specific details here.",
+      "label": "If Enablement Timing=OTHER, Explain:",
+      "name": "agf__If_Other_Please_Explain__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Include in Admin Preview",
+      "name": "agf__Include_in_Admin_Preview__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "No",
+          "validFor": null,
+          "value": "No"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yes",
+          "validFor": null,
+          "value": "Yes"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "This field should be checked when a feature(s) is not customer facing, but useful and/or valuable knowledge for internal audiences.",
+      "label": "Internal",
+      "name": "agf__Internal__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Internal feature only",
+      "name": "agf__Internal_feature_only__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Temporary Field for William Gradin",
+      "label": "Level",
+      "name": "agf__Level__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "A",
+          "validFor": null,
+          "value": "A"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "B",
+          "validFor": null,
+          "value": "B"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "C",
+          "validFor": null,
+          "value": "C"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "D",
+          "validFor": null,
+          "value": "D"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Major-Minor Status",
+      "name": "agf__Major_Minor_Status__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Major Feature",
+          "validFor": null,
+          "value": "Major Feature"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Minor Feature",
+          "validFor": null,
+          "value": "Minor Feature"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": "Enter the Marketing description for the release preview document",
+      "label": "Marketing Description",
+      "name": "agf__Marketing_Description__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": "2 - 4 bullet points of key business benefits.  If feature can't easily be tied to business benefits then put 2 - 4 key technical benefits",
+      "label": "Marketing Key Benefits",
+      "name": "agf__Marketing_Key_Benefits__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Temporary field for William Gradin to use",
+      "label": "Marketing Name 2",
+      "name": "agf__Marketing_Name_2__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Marketing Name for Release Preview document.  This field is audited.",
+      "label": "Marketing Name",
+      "name": "agf__Marketing_Name__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Sentence fragment to briefly describe the feature.",
+      "label": "Marketing Tag Line",
+      "name": "agf__Marketing_Tag_Line__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Check this box if the feature will not be released with R1 or R2 releases.",
+      "label": "Off Cycle Release",
+      "name": "agf__Off_Cycle_Release__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": "Generally Available",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "What is the plan for the marketed availability of this product/feature?",
+      "label": "Planned Release Status",
+      "name": "agf__Planned_Release_Status__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "Generally Available",
+          "validFor": null,
+          "value": "Generally Available"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Limited Release",
+          "validFor": null,
+          "value": "Limited Release"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pilot",
+          "validFor": null,
+          "value": "Pilot"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Beta",
+          "validFor": null,
+          "value": "Beta"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Developer Preview",
+          "validFor": null,
+          "value": "Developer Preview"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Developer Toolkit",
+          "validFor": null,
+          "value": "Developer Toolkit"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Product Division",
+      "name": "agf__Product_Division__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Analytics",
+          "validFor": null,
+          "value": "Analytics"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Core - Architecture",
+          "validFor": null,
+          "value": "Core - Architecture"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CRM Apps - Content",
+          "validFor": null,
+          "value": "CRM Apps - Content"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CRM Apps - Google Apps",
+          "validFor": null,
+          "value": "CRM Apps - Google Apps"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CRM Apps - Ideas",
+          "validFor": null,
+          "value": "CRM Apps - Ideas"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CRM Apps - Marketing/SFGA",
+          "validFor": null,
+          "value": "CRM Apps - Marketing/SFGA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CRM Apps - PRM",
+          "validFor": null,
+          "value": "CRM Apps - PRM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CRM Apps - SFA",
+          "validFor": null,
+          "value": "CRM Apps - SFA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CRM Apps - SSS",
+          "validFor": null,
+          "value": "CRM Apps - SSS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Other",
+          "validFor": null,
+          "value": "Other"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Admin",
+          "validFor": null,
+          "value": "Platform - Admin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - API/Integration/Security",
+          "validFor": null,
+          "value": "Platform - API/Integration/Security"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Application Development",
+          "validFor": null,
+          "value": "Platform - Application Development"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Appstore",
+          "validFor": null,
+          "value": "Platform - Appstore"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Desktop Clients",
+          "validFor": null,
+          "value": "Platform - Desktop Clients"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Mobile",
+          "validFor": null,
+          "value": "Platform - Mobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Other",
+          "validFor": null,
+          "value": "Platform - Other"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SFA - Verticals Marketing",
+          "validFor": null,
+          "value": "SFA - Verticals Marketing"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SFA - Verticals Product",
+          "validFor": null,
+          "value": "SFA - Verticals Product"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Web",
+          "validFor": null,
+          "value": "Web"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Product Leader",
+      "name": "agf__Product_Leader__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chuck Dietrich",
+          "validFor": null,
+          "value": "Chuck Dietrich"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Clara Shih",
+          "validFor": null,
+          "value": "Clara Shih"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "David Brooks",
+          "validFor": null,
+          "value": "David Brooks"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Elay Cohen",
+          "validFor": null,
+          "value": "Elay Cohen"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Eric Bezar",
+          "validFor": null,
+          "value": "Eric Bezar"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Jamie Grenney",
+          "validFor": null,
+          "value": "Jamie Grenney"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Jim Rivera",
+          "validFor": null,
+          "value": "Jim Rivera"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "John Ball",
+          "validFor": null,
+          "value": "John Ball"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Kraig Swensrud",
+          "validFor": null,
+          "value": "Kraig Swensrud"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mark Abramowitz",
+          "validFor": null,
+          "value": "Mark Abramowitz"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Product Manager",
+      "name": "agf__Product_Manager__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "agf__Product_Manager__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Product",
+      "name": "agf__Product__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Application Exchange",
+          "validFor": null,
+          "value": "Application Exchange"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "User Interface",
+          "validFor": null,
+          "value": "User Interface"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Logic",
+          "validFor": null,
+          "value": "Logic"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Integration",
+          "validFor": null,
+          "value": "Integration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Database",
+          "validFor": null,
+          "value": "Database"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Infrastructure",
+          "validFor": null,
+          "value": "Infrastructure"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Admin & Tools",
+          "validFor": null,
+          "value": "Admin & Tools"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sales",
+          "validFor": null,
+          "value": "Sales"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Marketing",
+          "validFor": null,
+          "value": "Marketing"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Call Center",
+          "validFor": null,
+          "value": "Call Center"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Customer Portal",
+          "validFor": null,
+          "value": "Customer Portal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Partners",
+          "validFor": null,
+          "value": "Partners"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mobile",
+          "validFor": null,
+          "value": "Mobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Content",
+          "validFor": null,
+          "value": "Content"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ideas",
+          "validFor": null,
+          "value": "Ideas"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "What is the plan for the marketed availability of this product / feature?",
+      "label": "Release Status",
+      "name": "agf__Release_Status__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "GA",
+          "validFor": null,
+          "value": "GA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Beta",
+          "validFor": null,
+          "value": "Beta"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Pilot",
+          "validFor": null,
+          "value": "Pilot"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Developer Preview",
+          "validFor": null,
+          "value": "Developer Preview"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Scheduled Build",
+      "name": "agf__Scheduled_Build__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "agf__ADM_Build__c"
+      ],
+      "relationshipName": "agf__Scheduled_Build__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Solution Overview Link",
+      "name": "agf__Solution_Overview_Link__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "url"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Solution Overview Status",
+      "name": "agf__Solution_Overview_Status__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Draft",
+          "validFor": null,
+          "value": "Draft"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Final",
+          "validFor": null,
+          "value": "Final"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": "Select all that apply.  Who will be the primary users of this product/feature?",
+      "label": "Target Audience",
+      "name": "agf__Target_Audience__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "System Administrator",
+          "validFor": null,
+          "value": "System Administrator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Developer",
+          "validFor": null,
+          "value": "Developer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Partner",
+          "validFor": null,
+          "value": "Partner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "End User",
+          "validFor": null,
+          "value": "End User"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "multipicklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "If you chose \"Off Cycle\", please enter the target date of this enablement/release.\nThis requires Exec Approval. You should have received an automated email with instructions on how to obtain this Exec Approval.",
+      "label": "Target Off Cycle Release Date",
+      "name": "agf__Target_Off_Cycle_Release_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "If you chose 'Off-Cycle' for your feature enablement timing, please provide the TARGET date of this enablement/release.\n'Off Cycle' requires Exec Approval. You should have received an automated email with instructions on how to obtain this Exec Approval.",
+      "label": "Off Cycle Target Release Date",
+      "name": "agf__Target_Release_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "If you chose \"Off Cycle\", please list the release date which the Exec Team have now approved.\nYou would have received this approved date from attending the Weekly Review of Releases meeting.",
+      "label": "Exec Approved Release Date",
+      "name": "agf__WRoR_Approval_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    }
+  ],
+  "label": "Solution Overview",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentDocument",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentDocuments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Attachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Attachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CollaborationGroupRecord",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordAssociatedGroups",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CombinedAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "CombinedAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContactRequest",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContactRequests",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDistribution",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDocumentLink",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContentDocumentLinks",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContentVersion",
+      "deprecatedAndHidden": false,
+      "field": "FirstPublishLocationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "DuplicateRecordItem",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "DuplicateRecordItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "EntitySubscription",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "FeedSubscriptionsForEntity",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventRelationChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "RelationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FeedComment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "FeedItem",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "NetworkActivityAudit",
+      "deprecatedAndHidden": false,
+      "field": "ParentEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ParentEntities",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NetworkUserHistoryRecent",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NetworkUserHistoryRecentToRecord",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Note",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Notes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NoteAndAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NotesAndAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProcessInstance",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessInstances",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ProcessInstanceHistory",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessSteps",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "RecordAction",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActions",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "RecordActionHistory",
+      "deprecatedAndHidden": false,
+      "field": "ParentRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActionHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "TaskChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "TopicAssignment",
+      "deprecatedAndHidden": false,
+      "field": "EntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "TopicAssignments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "agf__ADM_Solution_Overview__Feed",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Feeds",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "agf__ADM_Solution_Overview__History",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Histories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Work__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Solution_Overview__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Work__r",
+      "restrictedDelete": false
+    }
+  ],
+  "custom": true,
+  "name": "agf__ADM_Solution_Overview__c",
+  "queryable": true
+}

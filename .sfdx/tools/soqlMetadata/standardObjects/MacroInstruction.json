@@ -1,0 +1,3020 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Macro Instruction ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Macro Instruction Name",
+      "name": "Name",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Macro ID",
+      "name": "MacroId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "Macro"
+      ],
+      "relationshipName": "Macro",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Operation",
+      "name": "Operation",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "select",
+          "validFor": null,
+          "value": "Select"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "set",
+          "validFor": null,
+          "value": "Set"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "insert",
+          "validFor": null,
+          "value": "Insert"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "submit",
+          "validFor": null,
+          "value": "Submit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "close",
+          "validFor": null,
+          "value": "Close"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "if",
+          "validFor": null,
+          "value": "If"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "elseif",
+          "validFor": null,
+          "value": "ElseIf"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "else",
+          "validFor": null,
+          "value": "Else"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "endif",
+          "validFor": null,
+          "value": "EndIf"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Target",
+      "name": "Target",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Access Type",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.CollaborationType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Account Name",
+          "validFor": null,
+          "value": "Field.Account.Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Account Name",
+          "validFor": null,
+          "value": "Field.Account.Name.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Account Name",
+          "validFor": null,
+          "value": "Field.Account.Name.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Account Name",
+          "validFor": null,
+          "value": "Field.Contact.AccountId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Account Name",
+          "validFor": null,
+          "value": "Field.Opportunity.AccountId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active 62 Org Case Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Case__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Acceptance Criterion Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Acceptance_Criterion__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Accomplishment Tab",
+          "validFor": null,
+          "value": "Tab.agf__PPM_Project_Accomplishment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Account Contact Relationship Tab",
+          "validFor": null,
+          "value": "Tab.AccountContactRelation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Account Tab",
+          "validFor": null,
+          "value": "Tab.Account"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Additional Field Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Additional_Field__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active ADM_Status_History Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Status_History__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Alphabetical_list_of_products Tab",
+          "validFor": null,
+          "value": "Tab.Alphabetical_list_of_products__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Answer Tab",
+          "validFor": null,
+          "value": "Tab.agf__QA_Answer__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active API Anomaly Event Store Tab",
+          "validFor": null,
+          "value": "Tab.ApiAnomalyEventStore"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Application Approver Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Application_Approver__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Application Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Application__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Asset Relationship Tab",
+          "validFor": null,
+          "value": "Tab.AssetRelationship"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Asset Tab",
+          "validFor": null,
+          "value": "Tab.Asset"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Assignment Rule Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Assignment_Rule__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Authorization Form Text Tab",
+          "validFor": null,
+          "value": "Tab.AuthorizationFormText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Bookmark Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Bookmark__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Build Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Build__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Burndown Item Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Burndown_Item__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Case Tab",
+          "validFor": null,
+          "value": "Tab.Case"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Categories Tab",
+          "validFor": null,
+          "value": "Tab.Categories__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Category_Sales_for_1997 Tab",
+          "validFor": null,
+          "value": "Tab.Category_Sales_for_1997__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Certification Tab",
+          "validFor": null,
+          "value": "Tab.Certification__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Certification Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Certification__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Change List Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Change_List__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Channel Program Level Tab",
+          "validFor": null,
+          "value": "Tab.ChannelProgramLevel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Channel Program Member Tab",
+          "validFor": null,
+          "value": "Tab.ChannelProgramMember"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Channel Program Tab",
+          "validFor": null,
+          "value": "Tab.ChannelProgram"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Cloud Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Cloud__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Color Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Color__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Column History Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Column_History__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Column Status Assignment Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Column_Status_Assignment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Column Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Column__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Comment Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Comment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Communication Subscription Channel Type Tab",
+          "validFor": null,
+          "value": "Tab.CommSubscriptionChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Communication Subscription Tab",
+          "validFor": null,
+          "value": "Tab.CommSubscription"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Competency Tab",
+          "validFor": null,
+          "value": "Tab.Competency__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Consumption Schedule Tab",
+          "validFor": null,
+          "value": "Tab.ConsumptionSchedule"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Contact Tab",
+          "validFor": null,
+          "value": "Tab.Contact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Contract Tab",
+          "validFor": null,
+          "value": "Tab.Contract"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Copy Log Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Copy_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Coverage Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Coverage__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Credential Stuffing Event Store Tab",
+          "validFor": null,
+          "value": "Tab.CredentialStuffingEventStore"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Current_Product_Lists Tab",
+          "validFor": null,
+          "value": "Tab.Current_Product_Lists__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Customer_and_Suppliers_by_Cities Tab",
+          "validFor": null,
+          "value": "Tab.Customer_and_Suppliers_by_Cities__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active CustomerDemographics Tab",
+          "validFor": null,
+          "value": "Tab.CustomerDemographics__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Customers Tab",
+          "validFor": null,
+          "value": "Tab.Customers__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Default Test Case Tab",
+          "validFor": null,
+          "value": "Tab.agf__QA_Default_Test_Case__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Deleted Task Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Deleted_Task__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Education Tab",
+          "validFor": null,
+          "value": "Tab.Education__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Employees Tab",
+          "validFor": null,
+          "value": "Tab.Employees__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Engagement Channel Type Tab",
+          "validFor": null,
+          "value": "Tab.EngagementChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Environment Order Tab",
+          "validFor": null,
+          "value": "Tab.agf__Environments_Order__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Epic Burndown Item Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Epic_Burndown_Item__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Epic Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Epic__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active eRelease Request Tab",
+          "validFor": null,
+          "value": "Tab.agf__eRelease_Request__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Event Tab",
+          "validFor": null,
+          "value": "Tab.Event"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Exception Request Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Investigation_Exception__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Execution-Bug Tab",
+          "validFor": null,
+          "value": "Tab.agf__QA_ExecutionBug__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active External Managed Account Tab",
+          "validFor": null,
+          "value": "Tab.DelegatedAccount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Feature Freeze Exception Request Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Feature_Freeze_Exception_Request__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Feed Item Tab",
+          "validFor": null,
+          "value": "Tab.FeedItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Freeze Team Status Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Feature_Freeze_Status__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Frequency Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Frequency__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active FTest Tab",
+          "validFor": null,
+          "value": "Tab.agf__QA_FTest__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Group Tab",
+          "validFor": null,
+          "value": "Tab.CollaborationGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active GUS Exception Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_GUS_Exception__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Hierarchy Tab",
+          "validFor": null,
+          "value": "Tab.agf__QA_Hierarchy__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Image Tab",
+          "validFor": null,
+          "value": "Tab.Image"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Impact Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Impact__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Impact Type Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Impact_Type__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Individual Tab",
+          "validFor": null,
+          "value": "Tab.Individual"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Invoices Tab",
+          "validFor": null,
+          "value": "Tab.Invoices__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Key Expertise Tab",
+          "validFor": null,
+          "value": "Tab.Key_Expertise__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Key Value Properties Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Key_Value_Properties__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Knowledge Tab",
+          "validFor": null,
+          "value": "Tab.Knowledge__kav"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Lead Tab",
+          "validFor": null,
+          "value": "Tab.Lead"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Locking Record Tab",
+          "validFor": null,
+          "value": "Tab.agf__Locking_Record__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Message Tab",
+          "validFor": null,
+          "value": "Tab.Message__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Open Market Opportunity Tab",
+          "validFor": null,
+          "value": "Tab.agf__OMOpportunity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Opportunity Contact Role Tab",
+          "validFor": null,
+          "value": "Tab.OpportunityContactRole"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Opportunity Tab",
+          "validFor": null,
+          "value": "Tab.Opportunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Order_Details_Extendeds Tab",
+          "validFor": null,
+          "value": "Tab.Order_Details_Extendeds__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Order_Details Tab",
+          "validFor": null,
+          "value": "Tab.Order_Details__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Order_Subtotals Tab",
+          "validFor": null,
+          "value": "Tab.Order_Subtotals__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Orders_Qries Tab",
+          "validFor": null,
+          "value": "Tab.Orders_Qries__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Orders Tab",
+          "validFor": null,
+          "value": "Tab.Orders__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Order Tab",
+          "validFor": null,
+          "value": "Tab.Order"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Out Of Office Log Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Time_Off_Log__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Parent Cloud Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Parent_Cloud__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Partner Fund Allocation Tab",
+          "validFor": null,
+          "value": "Tab.PartnerFundAllocation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Partner Fund Claim Tab",
+          "validFor": null,
+          "value": "Tab.PartnerFundClaim"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Partner Fund Request Tab",
+          "validFor": null,
+          "value": "Tab.PartnerFundRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Partner Marketing Budget Tab",
+          "validFor": null,
+          "value": "Tab.PartnerMarketingBudget"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Party Consent Tab",
+          "validFor": null,
+          "value": "Tab.PartyConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Portfolio Tab",
+          "validFor": null,
+          "value": "Tab.agf__PPM_Portfolio__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Position Tab",
+          "validFor": null,
+          "value": "Tab.agf__Headcount__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Priority Mapping Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Priority_Mapping__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Priority Override Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Priority_Override__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Priority Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Priority__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Product_Sales_for_1997 Tab",
+          "validFor": null,
+          "value": "Tab.Product_Sales_for_1997__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Products_Above_Average_Prices Tab",
+          "validFor": null,
+          "value": "Tab.Products_Above_Average_Prices__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Products_by_Categories Tab",
+          "validFor": null,
+          "value": "Tab.Products_by_Categories__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Products Tab",
+          "validFor": null,
+          "value": "Tab.Products__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Product Tab",
+          "validFor": null,
+          "value": "Tab.Product2"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Product Tag Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Product_Tag__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Product Tag Work Metadata Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Product_Tag_Work_Metadata__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Program Goal Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Goal__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Program Tab",
+          "validFor": null,
+          "value": "Tab.agf__PPM_Program__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Project Tab",
+          "validFor": null,
+          "value": "Tab.agf__PPM_Project__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Question Tab",
+          "validFor": null,
+          "value": "Tab.agf__QA_Question__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Reference Tab",
+          "validFor": null,
+          "value": "Tab.Reference__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Regions Tab",
+          "validFor": null,
+          "value": "Tab.Regions__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Related Work Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Parent_Work__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Release Burndown Item Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Release_Burndown_Item__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Released In Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Released_In__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Release Event Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Release_Event__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Release Event Template Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Release_Event_Template__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Release Freeze Team Status Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Release_Freeze_Status__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Release Signoff Infrastructure Tab",
+          "validFor": null,
+          "value": "Tab.agf__Release_Signoff_Infrastructure__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Release Signoff Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Release_Signoff__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Release Stamp Batch ID Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Release_Stamp_Batch_ID__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Release Stamp Cache Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Release_Stamp_Cache__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Release Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Release__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Report Anomaly Event Store Tab",
+          "validFor": null,
+          "value": "Tab.ReportAnomalyEventStore"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Retrospective Tab",
+          "validFor": null,
+          "value": "Tab.agf__Retrospective__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Root Cause Analysis Tab",
+          "validFor": null,
+          "value": "Tab.agf__RCA__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Sales_by_Categories Tab",
+          "validFor": null,
+          "value": "Tab.Sales_by_Categories__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Sales_Totals_by_Amounts Tab",
+          "validFor": null,
+          "value": "Tab.Sales_Totals_by_Amounts__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Scrum Team Cache Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Scrum_Team_Cache__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Security Questionnaire Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Security_Questionaire__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Session Hijacking Event Store Tab",
+          "validFor": null,
+          "value": "Tab.SessionHijackingEventStore"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Severity Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Severity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Severity Type Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Severity_Type__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Shippers Tab",
+          "validFor": null,
+          "value": "Tab.Shippers__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active SLA Violation Tab",
+          "validFor": null,
+          "value": "Tab.agf__SLA_Violation__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Social Handle Tab",
+          "validFor": null,
+          "value": "Tab.Social_Handle__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Solution Overview Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Solution_Overview__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Source Control Connector Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Perforce_Connector__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Sprint Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Sprint__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Summary_of_Sales_by_Quarters Tab",
+          "validFor": null,
+          "value": "Tab.Summary_of_Sales_by_Quarters__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Summary_of_Sales_by_Years Tab",
+          "validFor": null,
+          "value": "Tab.Summary_of_Sales_by_Years__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Suppliers Tab",
+          "validFor": null,
+          "value": "Tab.Suppliers__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Tag Assignment Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Tag_Assignment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Task Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Task__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Task Tab",
+          "validFor": null,
+          "value": "Tab.Task"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Team Dependency Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Team_Dependency__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Team Member Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Scrum_Team_Member__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Team Name History Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Team_Name_History__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Team Release Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Team_Release__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Team Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Scrum_Team__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Territories Tab",
+          "validFor": null,
+          "value": "Tab.Territories__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Case Tab",
+          "validFor": null,
+          "value": "Tab.agf__QA_Test_Case__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Execution Tab",
+          "validFor": null,
+          "value": "Tab.agf__QA_Test_Execution__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active testexternalobj Tab",
+          "validFor": null,
+          "value": "Tab.testexternalobj__x"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Plan Comment Tab",
+          "validFor": null,
+          "value": "Tab.agf__QA_Comment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Test Plan Tab",
+          "validFor": null,
+          "value": "Tab.agf__QA_Test_Plan__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Theme Assignment Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Theme_Assignment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Theme Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Theme__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Third Party Software Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Third_Party_Software__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Threat Detection Feedback Tab",
+          "validFor": null,
+          "value": "Tab.ThreatDetectionFeedback"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Tower Tab",
+          "validFor": null,
+          "value": "Tab.Tower__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Trailhead Superbadge Tab",
+          "validFor": null,
+          "value": "Tab.Trailhead_Superbadge__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Type Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Type__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active User Business Hours Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_User_Business_Hours__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active User Product Tag Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_User_Product_Tag__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active User Tab",
+          "validFor": null,
+          "value": "Tab.User"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Valid GUS Value Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Valid_GUS_Value__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Work Cache Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Work_Cache__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Work Commitment Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Work_Commitment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active WorkData Tab",
+          "validFor": null,
+          "value": "Tab.agf__WorkData__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Work Experience Tab",
+          "validFor": null,
+          "value": "Tab.Work_Experience__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Work History Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Work_History__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Work Status Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Work_Status__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Work Subscriber Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Work_Subscriber__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Work Tab",
+          "validFor": null,
+          "value": "Tab.agf__ADM_Work__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Add Member Action",
+          "validFor": null,
+          "value": "QuickAction.CollaborationGroup.NewGroupMember"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Add Record Action",
+          "validFor": null,
+          "value": "QuickAction.CollaborationGroup.NewGroupRecord"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Alternate Name",
+          "validFor": null,
+          "value": "Field.Account.Alternate_Name__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Alternate Name",
+          "validFor": null,
+          "value": "Field.Account.Alternate_Name__c.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Alternate Name",
+          "validFor": null,
+          "value": "Field.Account.Alternate_Name__c.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Amount",
+          "validFor": null,
+          "value": "Field.Opportunity.Amount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assigned To",
+          "validFor": null,
+          "value": "Field.Task.OwnerId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Assigned To",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Assignee__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Attachments",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.AttachmentIds.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Attachments",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.ContentDocumentIds.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "BCC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.BccAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "BCC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.BccAddress.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "BCC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.BccAddress.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.CaseComment.CommentBody.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.Note.Body.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.CaseComment.CommentBody.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.CaseComment.CommentBody"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.Note.Body.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.Note.Body.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.CaseComment.CommentBody.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Body",
+          "validFor": null,
+          "value": "Field.Note.Body"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bug Action",
+          "validFor": null,
+          "value": "QuickAction.agf__Bug"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Case Owner",
+          "validFor": null,
+          "value": "Field.Case.OwnerId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Cases",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Number_of_Cases__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.CcAddress.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.CcAddress.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CC",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.CcAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Date Action",
+          "validFor": null,
+          "value": "QuickAction.Task.Defer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Date Action",
+          "validFor": null,
+          "value": "QuickAction.Task.Defer_0"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Date Action",
+          "validFor": null,
+          "value": "QuickAction.Task.Defer_1"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Priority Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdatePriority_0"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Priority Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdatePriority_1"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Priority Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdatePriority"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Status Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdateStatus"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Status Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdateStatus_1"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Change Status Action",
+          "validFor": null,
+          "value": "QuickAction.Task.UpdateStatus_0"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Close Date",
+          "validFor": null,
+          "value": "Field.Opportunity.CloseDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Comments",
+          "validFor": null,
+          "value": "Field.Task.Description.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Comments",
+          "validFor": null,
+          "value": "Field.Task.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Comments",
+          "validFor": null,
+          "value": "Field.Task.Description.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Comments",
+          "validFor": null,
+          "value": "Field.Task.Description.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Community Action",
+          "validFor": null,
+          "value": "QuickAction.Case.CaseComment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Company",
+          "validFor": null,
+          "value": "Field.Lead.Company"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Company",
+          "validFor": null,
+          "value": "Field.Lead.Company.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Company",
+          "validFor": null,
+          "value": "Field.Lead.Company.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Contact Name",
+          "validFor": null,
+          "value": "Field.Case.ContactId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Create New Task Action",
+          "validFor": null,
+          "value": "QuickAction.FeedItem.NewTaskFromFeedItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Event.Description.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Details__c.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Details__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Event.Description.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Case.Description.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Event.Description.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Case.Description.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Description.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Case.Description.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Case.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Description.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Description.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Details__c.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Details__c.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Field.Event.Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Details and Steps to Reproduce",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Details_and_Steps_to_Reproduce__c.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Details and Steps to Reproduce",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Details_and_Steps_to_Reproduce__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Details and Steps to Reproduce",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Details_and_Steps_to_Reproduce__c.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Details and Steps to Reproduce",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Details_and_Steps_to_Reproduce__c.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Due Date",
+          "validFor": null,
+          "value": "Field.Task.ActivityDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Edit Comments Action",
+          "validFor": null,
+          "value": "QuickAction.Task.EditDescription_0"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Edit Comments Action",
+          "validFor": null,
+          "value": "QuickAction.Task.EditDescription_1"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Edit Comments Action",
+          "validFor": null,
+          "value": "QuickAction.Task.EditDescription"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email",
+          "validFor": null,
+          "value": "Field.Lead.Email"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email",
+          "validFor": null,
+          "value": "Field.Contact.Email"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Action",
+          "validFor": null,
+          "value": "QuickAction.SendEmail"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Template",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.EmailTemplateId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "End",
+          "validFor": null,
+          "value": "Field.Event.EndDateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Environment",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Environment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Epic",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Epic__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Contact.FirstName.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Contact.FirstName.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Lead.FirstName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Contact.FirstName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Lead.FirstName.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "First Name",
+          "validFor": null,
+          "value": "Field.Lead.FirstName.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Found in Build",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Found_in_Build__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "From",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.ValidatedFromAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Group",
+          "validFor": null,
+          "value": "Field.CollaborationGroupRecord.CollaborationGroupId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Group",
+          "validFor": null,
+          "value": "Field.CollaborationGroupMember.CollaborationGroupId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Group Member Role",
+          "validFor": null,
+          "value": "Field.CollaborationGroupMember.CollaborationRole"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Guest Community Case Action",
+          "validFor": null,
+          "value": "QuickAction.GuestCommunityCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Help Status",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Help_Status__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HTML Body",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.HtmlBody.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HTML Body",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.HtmlBody.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HTML Body",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.HtmlBody"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HTML Body",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.HtmlBody.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Industry",
+          "validFor": null,
+          "value": "Field.Account.Industry"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Contact.LastName.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Contact.LastName.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Lead.LastName.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Lead.LastName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Contact.LastName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Name",
+          "validFor": null,
+          "value": "Field.Lead.LastName.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Log a Call Action",
+          "validFor": null,
+          "value": "QuickAction.LogACall"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Member",
+          "validFor": null,
+          "value": "Field.CollaborationGroupMember.MemberId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mobile Device",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Mobile_Device__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mobile Device OS",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Mobile_Device_OS__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mobile Network",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Mobile_Network__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Name.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "Field.Task.WhoId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Name.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "Field.Event.WhoId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Name",
+          "validFor": null,
+          "value": "Field.CollaborationGroup.Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Account Action",
+          "validFor": null,
+          "value": "QuickAction.NewAccount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Account Action",
+          "validFor": null,
+          "value": "QuickAction.RegisterAccount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Case Action",
+          "validFor": null,
+          "value": "QuickAction.NewCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Child Case Action",
+          "validFor": null,
+          "value": "QuickAction.Case.NewChildCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Community Case Action",
+          "validFor": null,
+          "value": "QuickAction.NewCommunityCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Contact Action",
+          "validFor": null,
+          "value": "QuickAction.Account.NewContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Contact Action",
+          "validFor": null,
+          "value": "QuickAction.NewContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Event Action",
+          "validFor": null,
+          "value": "QuickAction.NewEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Group Action",
+          "validFor": null,
+          "value": "QuickAction.NewGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Lead Action",
+          "validFor": null,
+          "value": "QuickAction.NewLead"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Note Action",
+          "validFor": null,
+          "value": "QuickAction.NewNote"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Opportunity Action",
+          "validFor": null,
+          "value": "QuickAction.NewOpportunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New Task Action",
+          "validFor": null,
+          "value": "QuickAction.NewTask"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Next Step",
+          "validFor": null,
+          "value": "Field.Opportunity.NextStep"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Next Step",
+          "validFor": null,
+          "value": "Field.Opportunity.NextStep.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Next Step",
+          "validFor": null,
+          "value": "Field.Opportunity.NextStep.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Opportunity Name",
+          "validFor": null,
+          "value": "Field.Opportunity.Name.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Opportunity Name",
+          "validFor": null,
+          "value": "Field.Opportunity.Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Opportunity Name",
+          "validFor": null,
+          "value": "Field.Opportunity.Name.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Parent Case",
+          "validFor": null,
+          "value": "Field.Case.ParentId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Phone",
+          "validFor": null,
+          "value": "Field.Contact.Phone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Phone",
+          "validFor": null,
+          "value": "Field.Lead.Phone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Phone",
+          "validFor": null,
+          "value": "Field.Account.Phone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Priority",
+          "validFor": null,
+          "value": "Field.Task.Priority"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Priority",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Priority__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Priority",
+          "validFor": null,
+          "value": "Field.Case.Priority"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Private",
+          "validFor": null,
+          "value": "Field.Note.IsPrivate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product Owner",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Product_Owner__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product Tag",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Product_Tag__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "QA Engineer",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__QA_Engineer__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record",
+          "validFor": null,
+          "value": "Field.CollaborationGroupRecord.RecordId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Red Account",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Red_Account__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related To",
+          "validFor": null,
+          "value": "Field.Event.WhatId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related To",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.RelatedToId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related To",
+          "validFor": null,
+          "value": "Field.Task.WhatId"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "S1 App Build Number",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__S1_App_Build_Number__c.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "S1 App Build Number",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__S1_App_Build_Number__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "S1 App Build Number",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__S1_App_Build_Number__c.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Salutation",
+          "validFor": null,
+          "value": "Field.Lead.Salutation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Salutation",
+          "validFor": null,
+          "value": "Field.Contact.Salutation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Scheduled Build",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Scheduled_Build__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Senior Management POC",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Senior_Management_POC__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Severity Level",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Severity_Level__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sprint",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Sprint__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Stage",
+          "validFor": null,
+          "value": "Field.Opportunity.StageName"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Start",
+          "validFor": null,
+          "value": "Field.Event.StartDateTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
+          "value": "Field.Case.Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
+          "value": "Field.Task.Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Status__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Story Action",
+          "validFor": null,
+          "value": "QuickAction.agf__Story"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Story Points",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Story_Points__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.Subject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.Subject.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.Case.Subject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.Case.Subject.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.Event.Subject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.Case.Subject.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Subject__c.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.Subject.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Subject__c.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Subject__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Field.Task.Subject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Support Contact",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__CS_Contact__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tech Writer",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Tech_Writer__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "test",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__ftest__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "test",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__ftest__c.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "test",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__ftest__c.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Test Resolution",
+          "validFor": null,
+          "value": "Field.agf__ADM_Work__c.agf__Resolution__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Contact.Title.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Lead.Title.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Note.Title.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Contact.Title"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Lead.Title.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Lead.Title"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Note.Title"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Contact.Title.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Title",
+          "validFor": null,
+          "value": "Field.Note.Title.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "To",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.ToAddress.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "To",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.ToAddress.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "To",
+          "validFor": null,
+          "value": "Field.OutgoingEmail.ToAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Type",
+          "validFor": null,
+          "value": "Field.Account.Type"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Account Action",
+          "validFor": null,
+          "value": "QuickAction.Account.UpdateContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Case Action",
+          "validFor": null,
+          "value": "QuickAction.Case._LightningUpdateCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Contact Action",
+          "validFor": null,
+          "value": "QuickAction.Contact._LightningRelatedContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Work Action",
+          "validFor": null,
+          "value": "QuickAction.agf__ADM_Work__c.agf__CustomEditUserStory"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Work Action",
+          "validFor": null,
+          "value": "QuickAction.agf__ADM_Work__c.agf__CustomEditBug"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Work Action",
+          "validFor": null,
+          "value": "QuickAction.agf__ADM_Work__c.agf__CustomEditInvestigation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Web Email",
+          "validFor": null,
+          "value": "Field.Case.SuppliedEmail"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Website",
+          "validFor": null,
+          "value": "Field.Account.Website"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Value",
+      "name": "Value",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Value Record ID",
+      "name": "ValueRecord",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Sort Order",
+      "name": "SortOrder",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    }
+  ],
+  "label": "Macro Instruction",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "ExpressionFilter",
+      "deprecatedAndHidden": false,
+      "field": "ContextId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    }
+  ],
+  "custom": false,
+  "name": "MacroInstruction",
+  "queryable": true
+}

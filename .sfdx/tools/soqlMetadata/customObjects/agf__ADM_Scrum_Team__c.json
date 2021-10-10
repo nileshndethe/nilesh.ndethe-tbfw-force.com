@@ -1,0 +1,2290 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Record ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Owner ID",
+      "name": "OwnerId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "Group",
+        "User"
+      ],
+      "relationshipName": "Owner",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Team Name",
+      "name": "Name",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Record Type ID",
+      "name": "RecordTypeId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "RecordType"
+      ],
+      "relationshipName": "RecordType",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Viewed Date",
+      "name": "LastViewedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Referenced Date",
+      "name": "LastReferencedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": true,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Active",
+      "name": "agf__Active__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Business Hours",
+      "name": "agf__Business_Hours__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "BusinessHours"
+      ],
+      "relationshipName": "agf__Business_Hours__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Enter a list of Chatter Group IDs separated by commas (ie: 0F9B000000000qR, 0F9B000000000q2). The ID can be found in a Group's URL.\n\nValid IDs will be rendered into links to Chatter Groups.",
+      "label": "Chatter Groups",
+      "name": "agf__Chatter_Groups__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Department",
+      "name": "agf__Cloud__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Analytics",
+          "validFor": null,
+          "value": "Analytics"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Capacity",
+          "validFor": null,
+          "value": "Capacity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Core",
+          "validFor": null,
+          "value": "Core"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Core Infrastructure",
+          "validFor": null,
+          "value": "Core Infrastructure"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Data Center Automation",
+          "validFor": null,
+          "value": "Data Center Automation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Industry",
+          "validFor": null,
+          "value": "Industry"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "IT",
+          "validFor": null,
+          "value": "IT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Marketing",
+          "validFor": null,
+          "value": "Marketing"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Matrix",
+          "validFor": null,
+          "value": "Matrix"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mobile",
+          "validFor": null,
+          "value": "Mobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Network and Systems Platform",
+          "validFor": null,
+          "value": "Network and Systems Platform"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Path-To-Production",
+          "validFor": null,
+          "value": "Path-To-Production"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform",
+          "validFor": null,
+          "value": "Platform"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Production Support",
+          "validFor": null,
+          "value": "Production Support"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Productivity",
+          "validFor": null,
+          "value": "Productivity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Programmatic UI",
+          "validFor": null,
+          "value": "Programmatic UI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "R&D App Delivery",
+          "validFor": null,
+          "value": "R&D App Delivery"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reliability",
+          "validFor": null,
+          "value": "Reliability"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sales",
+          "validFor": null,
+          "value": "Sales"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Security",
+          "validFor": null,
+          "value": "Security"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service",
+          "validFor": null,
+          "value": "Service"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Shared Services",
+          "validFor": null,
+          "value": "Shared Services"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Trust",
+          "validFor": null,
+          "value": "Trust"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Copy Record Type Name",
+      "name": "agf__Copy_Record_Type_Name__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Distribution Lists",
+      "name": "agf__Distribution_Lists__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "To be replaced with new Cloud mappings soon.",
+      "label": "Division",
+      "name": "agf__Division__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Core",
+          "validFor": null,
+          "value": "Core"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Internal",
+          "validFor": null,
+          "value": "Internal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "IT",
+          "validFor": null,
+          "value": "IT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "R&D Products",
+          "validFor": null,
+          "value": "R&D Products"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tech Ops",
+          "validFor": null,
+          "value": "Tech Ops"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Web",
+          "validFor": null,
+          "value": "Web"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Domain",
+      "name": "agf__Domain__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "All Products",
+          "validFor": "gAAA",
+          "value": "All Products"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Analytics",
+          "validFor": "gAAA",
+          "value": "Analytics"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Appstore",
+          "validFor": "",
+          "value": "Appstore"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Architecture",
+          "validFor": "",
+          "value": "Architecture"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Commerce",
+          "validFor": "",
+          "value": "Commerce"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Common Services",
+          "validFor": "",
+          "value": "Common Services"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Communities",
+          "validFor": "",
+          "value": "Communities"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Core",
+          "validFor": "AABA",
+          "value": "Core"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Data",
+          "validFor": "",
+          "value": "Data"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Identity / Security",
+          "validFor": "",
+          "value": "Identity / Security"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "InfoSec",
+          "validFor": "",
+          "value": "InfoSec"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Infrastructure",
+          "validFor": "AABA",
+          "value": "Infrastructure"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mobile",
+          "validFor": "",
+          "value": "Mobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Monitoring",
+          "validFor": "",
+          "value": "Monitoring"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Other",
+          "validFor": "",
+          "value": "Other"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform",
+          "validFor": "",
+          "value": "Platform"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Programmable Data Center",
+          "validFor": "",
+          "value": "Programmable Data Center"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reliability",
+          "validFor": "AABA",
+          "value": "Reliability"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sales Department",
+          "validFor": "",
+          "value": "Sales Department"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service Department",
+          "validFor": "",
+          "value": "Service Department"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "T&P Ops",
+          "validFor": "",
+          "value": "T&P Ops"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Test Health",
+          "validFor": "",
+          "value": "Test Health"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tools",
+          "validFor": "",
+          "value": "Tools"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Trust & Productivity",
+          "validFor": "",
+          "value": "Trust & Productivity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Web",
+          "validFor": "",
+          "value": "Web"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "IT Infrastructure",
+          "validFor": "AgAA",
+          "value": "IT Infrastructure"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "End Date",
+      "name": "agf__End_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "External ID",
+      "name": "agf__External_ID__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "External Name",
+      "name": "agf__External_Name__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Group ID Link",
+      "name": "agf__Group_ID_Link__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Kanban",
+      "name": "agf__Kanban__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Lock Report",
+      "name": "agf__Lock_Report__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Overall Status",
+      "name": "agf__Overall_Status__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Green",
+          "validFor": null,
+          "value": "Green"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yellow",
+          "validFor": null,
+          "value": "Yellow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Red",
+          "validFor": null,
+          "value": "Red"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Product Area",
+      "name": "agf__Product_Area__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Core - Architecture",
+          "validFor": null,
+          "value": "Core - Architecture"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CSS",
+          "validFor": null,
+          "value": "CSS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "CSS - Knowledge Base",
+          "validFor": null,
+          "value": "CSS - Knowledge Base"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ideas",
+          "validFor": null,
+          "value": "Ideas"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Partner Networks",
+          "validFor": null,
+          "value": "Partner Networks"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Administration & Distribution",
+          "validFor": null,
+          "value": "Platform - Administration & Distribution"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Analytics",
+          "validFor": null,
+          "value": "Platform - Analytics"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - AppExchange",
+          "validFor": null,
+          "value": "Platform - AppExchange"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Application Development",
+          "validFor": null,
+          "value": "Platform - Application Development"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Application Services",
+          "validFor": null,
+          "value": "Platform - Application Services"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Appstore",
+          "validFor": null,
+          "value": "Platform - Appstore"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mobile",
+          "validFor": null,
+          "value": "Mobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform - Other",
+          "validFor": null,
+          "value": "Platform - Other"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Collaboration",
+          "validFor": null,
+          "value": "Collaboration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Content",
+          "validFor": null,
+          "value": "Content"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "AppStore Edition",
+          "validFor": null,
+          "value": "AppStore Edition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Marketing",
+          "validFor": null,
+          "value": "Marketing"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Web",
+          "validFor": null,
+          "value": "Web"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Other",
+          "validFor": null,
+          "value": "Other"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messaging",
+          "validFor": null,
+          "value": "Messaging"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Email Clients",
+          "validFor": null,
+          "value": "Email Clients"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "To be replaced with new Cloud mappings soon.",
+      "label": "Product Line TO BE DELETED",
+      "name": "agf__Product_Line__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ADN",
+          "validFor": "BAAA",
+          "value": "ADN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Analytics",
+          "validFor": "EAAA",
+          "value": "Analytics"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "App Lifecycle, ISV, Admin",
+          "validFor": "EAAA",
+          "value": "App Lifecycle, ISV, Admin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Appstore",
+          "validFor": "IAAA",
+          "value": "Appstore"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Architecture",
+          "validFor": "gAAA",
+          "value": "Architecture"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Collaboration",
+          "validFor": "EAAA",
+          "value": "Collaboration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Content",
+          "validFor": "",
+          "value": "Content"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Documentation",
+          "validFor": "QAAA",
+          "value": "Documentation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Enterprise Scale",
+          "validFor": "EAAA",
+          "value": "Enterprise Scale"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ideas",
+          "validFor": "",
+          "value": "Ideas"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "InfoSec",
+          "validFor": "IAAA",
+          "value": "InfoSec"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "IT Infrastructure",
+          "validFor": "IAAA",
+          "value": "IT Infrastructure"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Labs",
+          "validFor": "",
+          "value": "Labs"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Marketing",
+          "validFor": "",
+          "value": "Marketing"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mobile",
+          "validFor": "",
+          "value": "Mobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Monitoring",
+          "validFor": "CAAA",
+          "value": "Monitoring"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Process",
+          "validFor": "QAAA",
+          "value": "Process"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Release",
+          "validFor": "QAAA",
+          "value": "Release"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sales & Marketing",
+          "validFor": "EAAA",
+          "value": "Sales & Marketing"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service Department",
+          "validFor": "EAAA",
+          "value": "Service Department"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Success",
+          "validFor": "",
+          "value": "Success"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Testing",
+          "validFor": "QAAA",
+          "value": "Testing"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tools",
+          "validFor": "QAAA",
+          "value": "Tools"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Usability & App Development",
+          "validFor": "EAAA",
+          "value": "Usability & App Development"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "User Experience",
+          "validFor": "",
+          "value": "User Experience"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Verticals",
+          "validFor": "",
+          "value": "Verticals"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "www",
+          "validFor": "BAAA",
+          "value": "www"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Release Coverage Needed",
+      "name": "agf__Release_Coverage_Needed__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": "To be replaced with new Cloud mappings soon.",
+      "label": "Rollup Reporting Group TO BE DELETED",
+      "name": "agf__Rollup_Reporting_Group__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Analytics",
+          "validFor": null,
+          "value": "Analytics"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "AppStore",
+          "validFor": null,
+          "value": "AppStore"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Internal",
+          "validFor": null,
+          "value": "Internal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "IT Business Applications",
+          "validFor": null,
+          "value": "IT Business Applications"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "IT Infrastructure",
+          "validFor": null,
+          "value": "IT Infrastructure"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mobile",
+          "validFor": null,
+          "value": "Mobile"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform",
+          "validFor": null,
+          "value": "Platform"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Public Websites",
+          "validFor": null,
+          "value": "Public Websites"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sales & Marketing",
+          "validFor": null,
+          "value": "Sales & Marketing"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service & Support",
+          "validFor": null,
+          "value": "Service & Support"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Systems",
+          "validFor": null,
+          "value": "Systems"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "multipicklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "The time and location of the team's scrum meeting. Include dial-in #, if applicable.",
+      "label": "Scrum Meeting Time/Location",
+      "name": "agf__Scrum_Meeting_Time_Location__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": "Describes what the team owns (functionality, infrastructure, services, etc.)",
+      "label": "Scrum Team Domain",
+      "name": "agf__Scrum_Team_Domain__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Scrumforce ID",
+      "name": "agf__Scrumforce_ID__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Start Date",
+      "name": "agf__Start_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "For Status reports for this team, allows you to specify the sections that should be displayed in that report and the order they should be displayed in. Use a space to separate each section. May include: decisions risks blockers milestones participants",
+      "label": "Status Report Sections",
+      "name": "agf__Status_Report_Format__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Enter the story point scale your team uses. This field must be a number comma separated list. By default it will be Fibonacci sequence through 21.",
+      "label": "Story Point Scale",
+      "name": "agf__Story_Point_Scale__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Team Email Group ID",
+      "name": "agf__Team_Email_Group_ID__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Enter the URL for your team's main site (Google, GitHub, etc). If you don't have a site, enter the URL for your team's primary Chatter group.",
+      "label": "Team Homepage",
+      "name": "agf__Team_Home_Page__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "url"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Team Queue ID",
+      "name": "agf__Team_Queue_ID__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Team Queue",
+      "name": "agf__Team_Queue__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Total Dev with Allocation",
+      "name": "agf__Total_Dev_with_Allocation__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Total Members with Allocation",
+      "name": "agf__Total_Members_with_Allocation__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Total QE with Allocation",
+      "name": "agf__Total_QE_with_Allocation__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": "Program",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Type",
+      "name": "agf__Type__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "Program",
+          "validFor": null,
+          "value": "Program"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Program of Programs",
+          "validFor": null,
+          "value": "Program of Programs"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Portfolio",
+          "validFor": null,
+          "value": "Portfolio"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Workrgoup",
+          "validFor": null,
+          "value": "Workrgoup"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "richtextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": "The reason why this program exists. Ultimately what is this program accomplishing.",
+      "label": "Vision",
+      "name": "agf__Vision__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Total Dev Allocation",
+      "name": "agf__Total_Dev_Allocation__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "percent"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Total Dev",
+      "name": "agf__Total_Dev__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Total Member Allocation",
+      "name": "agf__Total_Member_Allocation__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "percent"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Total Members",
+      "name": "agf__Total_Members__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Total QE Allocation",
+      "name": "agf__Total_QE_Allocation__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "percent"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Total QE",
+      "name": "agf__Total_QE__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "double"
+    }
+  ],
+  "label": "Team",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentDocument",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentDocuments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Attachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Attachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CollaborationGroupRecord",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordAssociatedGroups",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CombinedAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "CombinedAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContactRequest",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContactRequests",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDistribution",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDocumentLink",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContentDocumentLinks",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContentVersion",
+      "deprecatedAndHidden": false,
+      "field": "FirstPublishLocationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "DuplicateRecordItem",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "DuplicateRecordItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "EntitySubscription",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "FeedSubscriptionsForEntity",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventRelationChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "RelationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FeedComment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "FeedItem",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "NetworkActivityAudit",
+      "deprecatedAndHidden": false,
+      "field": "ParentEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ParentEntities",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NetworkUserHistoryRecent",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NetworkUserHistoryRecentToRecord",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Note",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Notes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NoteAndAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NotesAndAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProcessInstance",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessInstances",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ProcessInstanceHistory",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessSteps",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "RecordAction",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActions",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "RecordActionHistory",
+      "deprecatedAndHidden": false,
+      "field": "ParentRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActionHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "TaskChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "TopicAssignment",
+      "deprecatedAndHidden": false,
+      "field": "EntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "TopicAssignments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Assignment_Rule__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team_Assignment__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__R00NT0000000lhZkMAI__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Burndown_Item__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Burndown_Items__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Color__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Colors__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Column__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Columns__r",
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Coverage__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Feature_Code_Coverage__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Epic__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Epics__r",
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "agf__ADM_Goal__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Program_Goals__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Product_Tag__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Product_Tags__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "agf__ADM_Scrum_Team_Member__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Scrum_Team_Members__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "agf__ADM_Scrum_Team__Feed",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Feeds",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Security_Questionaire__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__SecQ_Scrum_Team__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Sprint__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Sprints__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Team_Dependency__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Associated_with_Program__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Associated_Team_Dependencies__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Team_Dependency__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Dependent_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Our_Dependencies__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Team_Dependency__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Provider_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Dependencies_on_us__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Team_Release__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Release_Teams__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Theme__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Themes__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Third_Party_Software__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Third_Party_Software__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Work__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Work__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__Headcount__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Headcount__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__Locking_Record__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Locking_Records__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "agf__OMOpportunity__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Opportunities__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__QA_FTest__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__R00ND0000001rfkHMAQ__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__QA_Test_Case__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Test_Cases__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__QA_Test_Plan__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__R00ND0000001rflaMAA__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__RCA__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Scrum_Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__RCA_Scrum_Team__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__Retrospective__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Release_Retrospectives__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__SLA_Violation__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Team__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__SLA_Violations__r",
+      "restrictedDelete": true
+    }
+  ],
+  "custom": true,
+  "name": "agf__ADM_Scrum_Team__c",
+  "queryable": true
+}

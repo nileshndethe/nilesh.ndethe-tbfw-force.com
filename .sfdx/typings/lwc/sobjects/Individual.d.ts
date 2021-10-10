@@ -1,0 +1,104 @@
+declare module "@salesforce/schema/Individual.Id" {
+  const Id:any;
+  export default Id;
+}
+declare module "@salesforce/schema/Individual.Owner" {
+  const Owner:any;
+  export default Owner;
+}
+declare module "@salesforce/schema/Individual.OwnerId" {
+  const OwnerId:any;
+  export default OwnerId;
+}
+declare module "@salesforce/schema/Individual.IsDeleted" {
+  const IsDeleted:boolean;
+  export default IsDeleted;
+}
+declare module "@salesforce/schema/Individual.LastName" {
+  const LastName:string;
+  export default LastName;
+}
+declare module "@salesforce/schema/Individual.FirstName" {
+  const FirstName:string;
+  export default FirstName;
+}
+declare module "@salesforce/schema/Individual.Salutation" {
+  const Salutation:string;
+  export default Salutation;
+}
+declare module "@salesforce/schema/Individual.Name" {
+  const Name:string;
+  export default Name;
+}
+declare module "@salesforce/schema/Individual.HasOptedOutTracking" {
+  const HasOptedOutTracking:boolean;
+  export default HasOptedOutTracking;
+}
+declare module "@salesforce/schema/Individual.HasOptedOutProfiling" {
+  const HasOptedOutProfiling:boolean;
+  export default HasOptedOutProfiling;
+}
+declare module "@salesforce/schema/Individual.HasOptedOutProcessing" {
+  const HasOptedOutProcessing:boolean;
+  export default HasOptedOutProcessing;
+}
+declare module "@salesforce/schema/Individual.HasOptedOutSolicit" {
+  const HasOptedOutSolicit:boolean;
+  export default HasOptedOutSolicit;
+}
+declare module "@salesforce/schema/Individual.ShouldForget" {
+  const ShouldForget:boolean;
+  export default ShouldForget;
+}
+declare module "@salesforce/schema/Individual.SendIndividualData" {
+  const SendIndividualData:boolean;
+  export default SendIndividualData;
+}
+declare module "@salesforce/schema/Individual.CanStorePiiElsewhere" {
+  const CanStorePiiElsewhere:boolean;
+  export default CanStorePiiElsewhere;
+}
+declare module "@salesforce/schema/Individual.HasOptedOutGeoTracking" {
+  const HasOptedOutGeoTracking:boolean;
+  export default HasOptedOutGeoTracking;
+}
+declare module "@salesforce/schema/Individual.BirthDate" {
+  const BirthDate:any;
+  export default BirthDate;
+}
+declare module "@salesforce/schema/Individual.IndividualsAge" {
+  const IndividualsAge:string;
+  export default IndividualsAge;
+}
+declare module "@salesforce/schema/Individual.LastViewedDate" {
+  const LastViewedDate:any;
+  export default LastViewedDate;
+}
+declare module "@salesforce/schema/Individual.CreatedDate" {
+  const CreatedDate:any;
+  export default CreatedDate;
+}
+declare module "@salesforce/schema/Individual.CreatedBy" {
+  const CreatedBy:any;
+  export default CreatedBy;
+}
+declare module "@salesforce/schema/Individual.CreatedById" {
+  const CreatedById:any;
+  export default CreatedById;
+}
+declare module "@salesforce/schema/Individual.LastModifiedDate" {
+  const LastModifiedDate:any;
+  export default LastModifiedDate;
+}
+declare module "@salesforce/schema/Individual.LastModifiedBy" {
+  const LastModifiedBy:any;
+  export default LastModifiedBy;
+}
+declare module "@salesforce/schema/Individual.LastModifiedById" {
+  const LastModifiedById:any;
+  export default LastModifiedById;
+}
+declare module "@salesforce/schema/Individual.SystemModstamp" {
+  const SystemModstamp:any;
+  export default SystemModstamp;
+}

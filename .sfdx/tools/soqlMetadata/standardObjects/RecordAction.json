@@ -1,0 +1,835 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "RecordAction ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Parent Record ID",
+      "name": "RecordId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "Account",
+        "Asset",
+        "AssetRelationship",
+        "Campaign",
+        "CampaignMember",
+        "Case",
+        "Certification__c",
+        "CollaborationGroup",
+        "Competency__c",
+        "Contact",
+        "ContactRequest",
+        "Contract",
+        "Education__c",
+        "EnhancedLetterhead",
+        "Key_Expertise__c",
+        "Lead",
+        "Message__c",
+        "Opportunity",
+        "Order",
+        "Pricebook2",
+        "PricebookEntry",
+        "Product2",
+        "Reference__c",
+        "Social_Handle__c",
+        "Tower__c",
+        "Trailhead_Superbadge__c",
+        "User",
+        "Work_Experience__c",
+        "agf__ADM_Acceptance_Criterion__c",
+        "agf__ADM_Additional_Field__c",
+        "agf__ADM_Application_Approver__c",
+        "agf__ADM_Application__c",
+        "agf__ADM_Assignment_Rule__c",
+        "agf__ADM_Bookmark__c",
+        "agf__ADM_Build__c",
+        "agf__ADM_Burndown_Item__c",
+        "agf__ADM_Case__c",
+        "agf__ADM_Certification__c",
+        "agf__ADM_Change_List__c",
+        "agf__ADM_Cloud__c",
+        "agf__ADM_Color__c",
+        "agf__ADM_Column_History__c",
+        "agf__ADM_Column_Status_Assignment__c",
+        "agf__ADM_Column__c",
+        "agf__ADM_Comment__c",
+        "agf__ADM_Copy_Log__c",
+        "agf__ADM_Coverage__c",
+        "agf__ADM_Deleted_Task__c",
+        "agf__ADM_Epic_Burndown_Item__c",
+        "agf__ADM_Epic__c",
+        "agf__ADM_Feature_Freeze_Exception_Request__c",
+        "agf__ADM_Feature_Freeze_Status__c",
+        "agf__ADM_Frequency__c",
+        "agf__ADM_GUS_Exception__c",
+        "agf__ADM_Goal__c",
+        "agf__ADM_Impact_Type__c",
+        "agf__ADM_Impact__c",
+        "agf__ADM_Investigation_Exception__c",
+        "agf__ADM_Key_Value_Properties__c",
+        "agf__ADM_Parent_Cloud__c",
+        "agf__ADM_Parent_Work__c",
+        "agf__ADM_Perforce_Connector__c",
+        "agf__ADM_Priority_Mapping__c",
+        "agf__ADM_Priority_Override__c",
+        "agf__ADM_Priority__c",
+        "agf__ADM_Product_Tag_Work_Metadata__c",
+        "agf__ADM_Product_Tag__c",
+        "agf__ADM_Release_Burndown_Item__c",
+        "agf__ADM_Release_Calendar__c",
+        "agf__ADM_Release_Event_Template__c",
+        "agf__ADM_Release_Event__c",
+        "agf__ADM_Release_Freeze_Status__c",
+        "agf__ADM_Release_Signoff__c",
+        "agf__ADM_Release_Stamp_Batch_ID__c",
+        "agf__ADM_Release_Stamp_Cache__c",
+        "agf__ADM_Release__c",
+        "agf__ADM_Released_In__c",
+        "agf__ADM_Scrum_Team_Cache__c",
+        "agf__ADM_Scrum_Team_Member__c",
+        "agf__ADM_Scrum_Team__c",
+        "agf__ADM_Security_Questionaire__c",
+        "agf__ADM_Severity_Type__c",
+        "agf__ADM_Severity__c",
+        "agf__ADM_Solution_Overview__c",
+        "agf__ADM_Sprint__c",
+        "agf__ADM_Status_History__c",
+        "agf__ADM_Tag_Assignment__c",
+        "agf__ADM_Task__c",
+        "agf__ADM_Team_Dependency__c",
+        "agf__ADM_Team_Name_History__c",
+        "agf__ADM_Team_Release__c",
+        "agf__ADM_Theme_Assignment__c",
+        "agf__ADM_Theme__c",
+        "agf__ADM_Third_Party_Software__c",
+        "agf__ADM_Time_Off_Log__c",
+        "agf__ADM_Type__c",
+        "agf__ADM_User_Business_Hours__c",
+        "agf__ADM_User_Product_Tag__c",
+        "agf__ADM_Valid_GUS_Value__c",
+        "agf__ADM_Work_Cache__c",
+        "agf__ADM_Work_Commitment__c",
+        "agf__ADM_Work_History__c",
+        "agf__ADM_Work_Status__c",
+        "agf__ADM_Work_Subscriber__c",
+        "agf__ADM_Work__c",
+        "agf__Environments_Order__c",
+        "agf__Headcount__c",
+        "agf__Locking_Record__c",
+        "agf__OMOpportunity__c",
+        "agf__PPM_Portfolio__c",
+        "agf__PPM_Program__c",
+        "agf__PPM_Project_Accomplishment__c",
+        "agf__PPM_Project__c",
+        "agf__QA_Answer__c",
+        "agf__QA_Comment__c",
+        "agf__QA_Default_Test_Case__c",
+        "agf__QA_ExecutionBug__c",
+        "agf__QA_FTest__c",
+        "agf__QA_Hierarchy__c",
+        "agf__QA_Question__c",
+        "agf__QA_Test_Case__c",
+        "agf__QA_Test_Execution__c",
+        "agf__QA_Test_Plan__c",
+        "agf__RCA__c",
+        "agf__Release_Signoff_Infrastructure__c",
+        "agf__Retrospective__c",
+        "agf__SLA_Violation__c",
+        "agf__WorkData__c",
+        "agf__eRelease_Request__c"
+      ],
+      "relationshipName": "Record",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Interaction Definition ID",
+      "name": "FlowDefinition",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ASCII_Art_Converter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "lwcFlowtest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "New_Contact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "New_Oppty"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "FlowInterview ID",
+      "name": "FlowInterviewId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "FlowInterview"
+      ],
+      "relationshipName": "FlowInterview",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Order",
+      "name": "Order",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "int"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": "New",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Status",
+      "name": "Status",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "New",
+          "validFor": null,
+          "value": "New"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Paused",
+          "validFor": null,
+          "value": "Paused"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Complete",
+          "validFor": null,
+          "value": "Complete"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Started",
+          "validFor": null,
+          "value": "Started"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Unlinked",
+          "validFor": null,
+          "value": "Unlinked"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": "None",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Pinned",
+      "name": "Pinned",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "None",
+          "validFor": null,
+          "value": "None"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Top",
+          "validFor": null,
+          "value": "Top"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bottom",
+          "validFor": null,
+          "value": "Bottom"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": "Flow",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Action Type",
+      "name": "ActionType",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "Flow",
+          "validFor": null,
+          "value": "Flow"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "QuickAction",
+          "validFor": null,
+          "value": "QuickAction"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Action Definition",
+      "name": "ActionDefinition",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ASCII_Art_Converter"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "lwcFlowtest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "New_Contact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "New_Oppty"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.Account.NewContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.Account.UpdateContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.agf__ADM_Product_Tag__c.agf__Configure_Product_Tag_Fields"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.agf__ADM_Work__c.agf__CustomEditBug"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.agf__ADM_Work__c.agf__CustomEditInvestigation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.agf__ADM_Work__c.agf__CustomEditUserStory"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.agf__ADM_Work__c.agf__Work_Check_In_Questions"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.agf__Bug"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.agf__Custom_Bug"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.agf__Custom_Story"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.agf__Story"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.Case._LightningUpdateCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.Case.NewChildCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.CollaborationGroup.NewGroupMember"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.CollaborationGroup.NewGroupRecord"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.Contact._LightningRelatedContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.FeedItem.ContentPost"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.FeedItem.LinkPost"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.FeedItem.MobileSmartActions"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.FeedItem.PollPost"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.FeedItem.QuestionPost"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.FeedItem.RypplePost"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.FeedItem.TextPost"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.GuestCommunityCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.LogACall"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.NewAccount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.NewCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.NewCommunityCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.NewContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.NewEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.NewGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.NewLead"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.NewNote"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.NewOpportunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.NewTask"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.RegisterAccount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.SendEmail"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Is Mandatory",
+      "name": "IsMandatory",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Hide Remove Action in UI",
+      "name": "IsUiRemoveHidden",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    }
+  ],
+  "label": "RecordAction",
+  "childRelationships": [
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    }
+  ],
+  "custom": false,
+  "name": "RecordAction",
+  "queryable": true
+}

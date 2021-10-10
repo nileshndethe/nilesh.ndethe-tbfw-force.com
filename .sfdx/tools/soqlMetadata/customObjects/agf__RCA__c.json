@@ -1,0 +1,1797 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Record ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Owner ID",
+      "name": "OwnerId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "Group",
+        "User"
+      ],
+      "relationshipName": "Owner",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "RCA Name",
+      "name": "Name",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Record Type ID",
+      "name": "RecordTypeId",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "RecordType"
+      ],
+      "relationshipName": "RecordType",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Modified Date",
+      "name": "LastModifiedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Modified By ID",
+      "name": "LastModifiedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "LastModifiedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "System Modstamp",
+      "name": "SystemModstamp",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Last Activity Date",
+      "name": "LastActivityDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Viewed Date",
+      "name": "LastViewedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Last Referenced Date",
+      "name": "LastReferencedDate",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "AAR Record Link",
+      "name": "agf__AAR_Record_Link__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "url"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "AAR #",
+      "name": "agf__AAR__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Action Plan Completion Date",
+      "name": "agf__Action_Plan_Completion_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Action Plan Summary",
+      "name": "agf__Action_Plan_Summary__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Action Plan in Scrumforce",
+      "name": "agf__Action_Plan__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "url"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Assignee",
+      "name": "agf__Assignee__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "agf__Assignee__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Bug",
+      "name": "agf__Bug__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "agf__ADM_Work__c"
+      ],
+      "relationshipName": "agf__Bug__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "We all hate the other field but over time this free text field might give us a good indication of what we are missing in the previous category fields.",
+      "label": "Root Cause Category (Other)",
+      "name": "agf__Category_Other__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Completed Date",
+      "name": "agf__Completed_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Customer Impacting",
+      "name": "agf__Customer_Impacting__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yes",
+          "validFor": null,
+          "value": "Yes"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "No",
+          "validFor": null,
+          "value": "No"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Duration",
+      "name": "agf__Duration__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "string"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Message Owners: Use this field to update Support on the ETA for the RCM/Issue Message if you are still investigating and will not have the message within the 5 business day SLA.  Flip \"Message Status\" to \"Under Investigation\"",
+      "label": "Estimated Delivery",
+      "name": "agf__Estimated_Delivery__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Event Date",
+      "name": "agf__Event_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Incident End Time",
+      "name": "agf__Incident_End_Time__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Incident Participants",
+      "name": "agf__Incident_Participants__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Incident Start Time",
+      "name": "agf__Incident_Start_Time__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Tier 3 case owner who requested the messaging on behalf of the customer.",
+      "label": "Message Requestor",
+      "name": "agf__Message_Requestor__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "agf__Message_Requestor__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Message Status",
+      "name": "agf__Message_Status__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "New",
+          "validFor": null,
+          "value": "New"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "In Progress",
+          "validFor": null,
+          "value": "In Progress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Still Investigating",
+          "validFor": null,
+          "value": "Still Investigating"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Approved",
+          "validFor": null,
+          "value": "Approved"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Delivered",
+          "validFor": null,
+          "value": "Delivered"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Field to identify messaging owner. OSC for RCA + RCM service incidents, Product Manager for RCA + RCM or Issue Message for product incidents.",
+      "label": "Messaging Owner",
+      "name": "agf__Messaging_Owner__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "agf__Messaging_Owner__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Date when the RCA owner finishes filling in the details.",
+      "label": "RCA Completed Date",
+      "name": "agf__RCA_Completed_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": "Brief summary of what occurred.",
+      "label": "RCA Incident Summary",
+      "name": "agf__RCA_Incident_Summary__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "RCA Invitees",
+      "name": "agf__RCA_Invitees__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "RCA Participants",
+      "name": "agf__RCA_Participants__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "RCA Review Forum",
+      "name": "agf__RCA_Review_Forum__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Applications Review",
+          "validFor": null,
+          "value": "Applications Review"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Analytics Big Data Review",
+          "validFor": null,
+          "value": "Analytics Big Data Review"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Automation Review",
+          "validFor": null,
+          "value": "Automation Review"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Core Review",
+          "validFor": null,
+          "value": "Core Review"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "data.com Review",
+          "validFor": null,
+          "value": "data.com Review"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "HA Review",
+          "validFor": null,
+          "value": "HA Review"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Internal HA Review",
+          "validFor": null,
+          "value": "Internal HA Review"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "IT Review",
+          "validFor": null,
+          "value": "IT Review"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Marketing Cloud",
+          "validFor": null,
+          "value": "Marketing Cloud"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Platform Review",
+          "validFor": null,
+          "value": "Platform Review"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "work.com Review",
+          "validFor": null,
+          "value": "work.com Review"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": "New",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Allows the team to see how many RCA records are still pending completion.",
+      "label": "RCA Status",
+      "name": "agf__RCA_Status__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "New",
+          "validFor": null,
+          "value": "New"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "RCA Complete",
+          "validFor": null,
+          "value": "RCA Complete"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "In Progress",
+          "validFor": null,
+          "value": "In Progress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Closed - RCA Complete",
+          "validFor": null,
+          "value": "Closed - RCA Complete"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Closed - Action Plan Complete",
+          "validFor": null,
+          "value": "Closed - Action Plan Complete"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "5 value options are presented here to allow the owner to categorize the release at a high level.",
+      "label": "RCA Type",
+      "name": "agf__RCA_Type__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "E-Release/Break-Fix Request",
+          "validFor": null,
+          "value": "E-Release/Break-Fix Request"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Deployment Delayed",
+          "validFor": null,
+          "value": "Deployment Delayed"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Rollback",
+          "validFor": null,
+          "value": "Rollback"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Incorrect/Incomplete Code Release",
+          "validFor": null,
+          "value": "Incorrect/Incomplete Code Release"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Incorrect/Incomplete Deployment",
+          "validFor": null,
+          "value": "Incorrect/Incomplete Deployment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Performance Degradation",
+          "validFor": null,
+          "value": "Performance Degradation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service Degradation",
+          "validFor": null,
+          "value": "Service Degradation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service Disruption",
+          "validFor": null,
+          "value": "Service Disruption"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Check this box if a customer has requested formal root cause messaging.",
+      "label": "RCM Required",
+      "name": "agf__RCM_Required__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": "Verbal",
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Use this field to denote if the RCM or Issue Message request was verbal or written. If the customer did not specify, the message should always be delivered verbally.",
+      "label": "Message Format",
+      "name": "agf__RCM_Type__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": true,
+          "label": "Verbal",
+          "validFor": null,
+          "value": "Verbal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Written",
+          "validFor": null,
+          "value": "Written"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Messaging Owners: Check this box when the RCM is ready for manager approval.",
+      "label": "Ready for Manager Approval",
+      "name": "agf__Ready_for_Manager_Approval__c",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Gives the team the ability to tie the RCA records to specific releases in GUS to gather valuable metrics over time.",
+      "label": "Release",
+      "name": "agf__Release__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "agf__ADM_Release__c"
+      ],
+      "relationshipName": "agf__Release__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Reported By",
+      "name": "agf__Reported_By__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "External Customer",
+          "validFor": null,
+          "value": "External Customer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Internal Customer",
+          "validFor": null,
+          "value": "Internal Customer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Monitoring",
+          "validFor": null,
+          "value": "Monitoring"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Other",
+          "validFor": null,
+          "value": "Other"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Request Date",
+      "name": "agf__Request_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Please include the Account and Contact names, Case Number, and any other details related to this request",
+      "label": "Request Details",
+      "name": "agf__Request_Details__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": "Indicates when a particular RCA is reviewed in a given management meeting.",
+      "label": "Review Date",
+      "name": "agf__Review_Date__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "date"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": "Many more options are provided here to categorize the incident at a more granular level.",
+      "label": "Root Cause Category",
+      "name": "agf__Root_Cause_Category__c",
+      "nillable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "3rd Party Variable",
+          "validFor": "4AAA",
+          "value": "3rd Party Variable"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Environment Disparity",
+          "validFor": "+AAA",
+          "value": "Environment Disparity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Customer-Specific Environment Issue",
+          "validFor": "4AAA",
+          "value": "Customer-Specific Environment Issue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Impact from Another Team",
+          "validFor": "4AAA",
+          "value": "Impact from Another Team"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Insufficient Automation",
+          "validFor": "8AAA",
+          "value": "Insufficient Automation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Inadequate Test Coverage",
+          "validFor": "8AAA",
+          "value": "Inadequate Test Coverage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Inadequate Functional Design",
+          "validFor": "4AAA",
+          "value": "Inadequate Functional Design"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Misunderstood Dependencies",
+          "validFor": "+AAA",
+          "value": "Misunderstood Dependencies"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Corner Case",
+          "validFor": "4AAA",
+          "value": "Corner Case"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Known Issue that was Deprioritized",
+          "validFor": "4AAA",
+          "value": "Known Issue that was Deprioritized"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Deficient Usability",
+          "validFor": "4AAA",
+          "value": "Deficient Usability"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Documentation Issue",
+          "validFor": "4AAA",
+          "value": "Documentation Issue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Translation Issue",
+          "validFor": "4AAA",
+          "value": "Translation Issue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hardware/Network Issues",
+          "validFor": "aAAA",
+          "value": "Hardware/Network Issues"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Regression",
+          "validFor": "4AAA",
+          "value": "Regression"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Autobuild Issue",
+          "validFor": "eAAA",
+          "value": "Autobuild Issue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Code Checked into Incorrect Branch",
+          "validFor": "8AAA",
+          "value": "Code Checked into Incorrect Branch"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Staging/Promotion Issue",
+          "validFor": "eAAA",
+          "value": "Staging/Promotion Issue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Incorrect/Incomplete Code Released",
+          "validFor": "oAAA",
+          "value": "Incorrect/Incomplete Code Released"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Release Runner Issues",
+          "validFor": "WAAA",
+          "value": "Release Runner Issues"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DICE Issues",
+          "validFor": "YAAA",
+          "value": "DICE Issues"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Application",
+          "validFor": "BwAA",
+          "value": "Application"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Configuration",
+          "validFor": "BwAA",
+          "value": "Configuration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Database",
+          "validFor": "BwAA",
+          "value": "Database"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hardware",
+          "validFor": "BwAA",
+          "value": "Hardware"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Network",
+          "validFor": "BwAA",
+          "value": "Network"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Operator Error",
+          "validFor": "/wAA",
+          "value": "Operator Error"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Release",
+          "validFor": "BwAA",
+          "value": "Release"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Software",
+          "validFor": "BwAA",
+          "value": "Software"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Storage",
+          "validFor": "BwAA",
+          "value": "Storage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "System",
+          "validFor": "BwAA",
+          "value": "System"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Other",
+          "validFor": "/wAA",
+          "value": "Other"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "multipicklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": "This field is in the process of being EOL'd. Please attach the RCM to the appropriate RCA record.",
+      "label": "Root Cause Messaging",
+      "name": "agf__Root_Cause_Messaging__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Scrum Team",
+      "name": "agf__Scrum_Team__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [
+        "agf__ADM_Scrum_Team__c"
+      ],
+      "relationshipName": "agf__Scrum_Team__r",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Subject",
+      "name": "agf__Subject__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Timeline of Events",
+      "name": "agf__Timeline_of_Events__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": "This answers the question of who was affected by the incident.  Was it all customers?  Only customers on NAX?",
+      "label": "What was the customer impact?",
+      "name": "agf__What_was_the_customer_impact__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": "This is a fairly straightforward question that asks the owner to detail how exactly the incident was resolved.",
+      "label": "What was the resolution?",
+      "name": "agf__What_was_the_resolution__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    },
+    {
+      "aggregatable": false,
+      "custom": true,
+      "defaultValue": null,
+      "extraTypeInfo": "plaintextarea",
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": "“The 5 Whys is a question-asking method used to explore the cause/effect relationships underlying a particular problem. Ultimately, the goal of applying the 5 Whys method is to determine a root cause of a defect or problem.”",
+      "label": "Why did this occur?",
+      "name": "agf__Why_did_this_occur_2__c",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": false,
+      "type": "textarea"
+    }
+  ],
+  "label": "Root Cause Analysis",
+  "childRelationships": [
+    {
+      "cascadeDelete": true,
+      "childSObject": "ActivityHistory",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ActivityHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "AttachedContentDocument",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentDocuments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Attachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Attachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CollaborationGroupRecord",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordAssociatedGroups",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "CombinedAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "CombinedAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContactRequest",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContactRequests",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDistribution",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ContentDocumentLink",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContentDocumentLinks",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContentVersion",
+      "deprecatedAndHidden": false,
+      "field": "FirstPublishLocationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "DuplicateRecordItem",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "DuplicateRecordItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EmailMessage",
+      "deprecatedAndHidden": false,
+      "field": "RelatedToId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Emails",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "EntitySubscription",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "FeedSubscriptionsForEntity",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Event",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Events",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "EventRelationChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "RelationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FeedComment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "FeedItem",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "FlowRecordRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelatedRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "NetworkActivityAudit",
+      "deprecatedAndHidden": false,
+      "field": "ParentEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ParentEntities",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NetworkUserHistoryRecent",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NetworkUserHistoryRecentToRecord",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Note",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Notes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NoteAndAttachment",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NotesAndAttachments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "OpenActivity",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "OpenActivities",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "OutgoingEmail",
+      "deprecatedAndHidden": false,
+      "field": "RelatedToId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProcessInstance",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessInstances",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ProcessInstanceHistory",
+      "deprecatedAndHidden": false,
+      "field": "TargetObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProcessSteps",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "RecordAction",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActions",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "RecordActionHistory",
+      "deprecatedAndHidden": false,
+      "field": "ParentRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "RecordActionHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Task",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Tasks",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "TaskChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "TopicAssignment",
+      "deprecatedAndHidden": false,
+      "field": "EntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "TopicAssignments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "agf__ADM_Work__c",
+      "deprecatedAndHidden": false,
+      "field": "agf__Root_Cause_Analysis_2__c",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "agf__Work1__r",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "agf__RCA__Feed",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Feeds",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "agf__RCA__History",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Histories",
+      "restrictedDelete": false
+    }
+  ],
+  "custom": true,
+  "name": "agf__RCA__c",
+  "queryable": true
+}
