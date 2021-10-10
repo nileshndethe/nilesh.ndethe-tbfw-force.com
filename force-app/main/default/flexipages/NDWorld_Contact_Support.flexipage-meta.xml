@@ -20,7 +20,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>confirmationMessageDescription</name>
-                <value>You&#39;ll hear back from us soon.</value>
+                <value>You&apos;ll hear back from us soon.</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>confirmationMessageTitle</name>
@@ -32,7 +32,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>deflectionNotHelpful</name>
-                <value>Didn&#39;t find what you&#39;re looking for?</value>
+                <value>Didn&apos;t find what you&apos;re looking for?</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>deflectionNumberOfArticles</name>

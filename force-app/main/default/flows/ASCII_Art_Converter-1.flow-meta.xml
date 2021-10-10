@@ -60,6 +60,8 @@
             <fieldText>{!X8328a6747a49bc91c54f6d88d99316363175f8e_16d9NotFound}</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
     </screens>
     <screens>
         <name>GetMessage</name>
@@ -82,8 +84,11 @@
             <fieldType>InputField</fieldType>
             <isRequired>false</isRequired>
         </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
     </screens>
     <startElementReference>GetMessage</startElementReference>
+    <status>Obsolete</status>
     <variables>
         <name>MessageEdit</name>
         <dataType>String</dataType>

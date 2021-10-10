@@ -15,9 +15,13 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Feed</tabs>
+    <tabs>Customers__x</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>First_Lightning_Console_App_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Customers__x</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

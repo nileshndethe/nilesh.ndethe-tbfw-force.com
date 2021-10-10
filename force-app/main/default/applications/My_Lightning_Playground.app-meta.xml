@@ -15,5 +15,7 @@
     <tabs>Towers</tabs>
     <tabs>Automatic_Styling_POC</tabs>
     <tabs>Message__c</tabs>
+    <tabs>Customers__x</tabs>
     <uiType>Lightning</uiType>
+    <utilityBar>My_Playground_UtilityBar</utilityBar>
 </CustomApplication>

@@ -108,7 +108,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>headerLabel</name>
-                <value>Don&#39;t see what you&#39;re looking for?</value>
+                <value>Don&apos;t see what you&apos;re looking for?</value>
             </componentInstanceProperties>
             <componentName>siteforce:napiliFooter</componentName>
         </componentInstances>

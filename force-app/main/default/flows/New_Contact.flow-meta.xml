@@ -2,7 +2,7 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
         <name>Post_to_Contact_s_Feed</name>
-        <label>Post to Contact&#39;s Feed</label>
+        <label>Post to Contact&apos;s Feed</label>
         <locationX>188</locationX>
         <locationY>311</locationY>
         <actionName>chatterPost</actionName>

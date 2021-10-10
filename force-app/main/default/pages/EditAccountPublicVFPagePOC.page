@@ -1,0 +1,26 @@
+<apex:page controller="EditAccountPublicVFPagePOCController" showHeader="false"  lightningStyleSheets="true">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="2" title="Opportunity Record" id="myPanel">
+                <apex:outputText label="Opportunity Id" value="{!LoanApplication.Id}" rendered="{!NOT(bEditMode)}" />
+                
+                <apex:outputText value="{!LoanApplication.Amount}" rendered="{!NOT(bEditMode)}" />
+                <apex:inputText value="{!LoanApplication.Amount}" rendered="{!bEditMode}" />
+
+                <apex:outputText value="{!LoanApplication.ExpectedRevenue}" rendered="{!NOT(bEditMode)}" />
+                <apex:inputText value="{!LoanApplication.ExpectedRevenue}" rendered="{!bEditMode}" />
+                
+                <apex:outputText value="{!LoanApplication.Description}" rendered="{!NOT(bEditMode)}" />
+                <apex:inputText value="{!LoanApplication.Description}" rendered="{!bEditMode}" />
+    
+                <apex:outputText value="{!LoanApplication.CurrentGenerators__c}" rendered="{!NOT(bEditMode)}" />
+                <apex:inputText value="{!LoanApplication.CurrentGenerators__c}" rendered="{!bEditMode}" />
+                
+                <div align="center" >
+                    <apex:commandButton action="{!doToggleEditMode}" value="Edit" reRender="myPanel" rendered="{!NOT(bEditMode)}" />
+                    <apex:commandButton action="{!doSave}" value="Save" reRender="myPanel" rendered="{!bEditMode}" />
+                </div>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

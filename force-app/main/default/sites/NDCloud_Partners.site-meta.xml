@@ -12,7 +12,7 @@
     <browserXssProtection>false</browserXssProtection>
     <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
     <contentSniffingProtection>false</contentSniffingProtection>
-    <cspUpgradeInsecureRequests>false</cspUpgradeInsecureRequests>
+    <cspUpgradeInsecureRequests>true</cspUpgradeInsecureRequests>
     <enableAuraRequests>true</enableAuraRequests>
     <fileNotFoundPage>FileNotFound</fileNotFoundPage>
     <genericErrorPage>Exception</genericErrorPage>
@@ -21,7 +21,6 @@
     <masterLabel>NDCloud Partners</masterLabel>
     <referrerPolicyOriginWhenCrossOrigin>false</referrerPolicyOriginWhenCrossOrigin>
     <requireHttps>true</requireHttps>
-    <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>nilesh.ndethe-tbfw@force.com</siteAdmin>
     <siteType>ChatterNetwork</siteType>

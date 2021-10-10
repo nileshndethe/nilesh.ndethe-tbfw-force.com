@@ -42,8 +42,8 @@
         <inputParameters>
             <name>emailBody</name>
             <value>
-                <stringValue>The Test-1 invocable process failed to start because a valid value wasn&#39;t found. This can happen when entities that invoke Test-1, such as other processes, don&#39;t have values for either the SObject or SObjectId. For example: 
--An SObject or SObject ID wasn&#39;t specified.
+                <stringValue>The Test-1 invocable process failed to start because a valid value wasn&apos;t found. This can happen when entities that invoke Test-1, such as other processes, don&apos;t have values for either the SObject or SObjectId. For example: 
+-An SObject or SObject ID wasn&apos;t specified.
 -A value might have been included, but it was null at runtime. </stringValue>
             </value>
         </inputParameters>
@@ -140,7 +140,7 @@ Contact Last Name: {!SObject.Contact.LastName}</stringValue>
             <processMetadataValues>
                 <name>objectType</name>
                 <value>
-                    <stringValue/>
+                    <stringValue></stringValue>
                 </value>
             </processMetadataValues>
             <processMetadataValues>

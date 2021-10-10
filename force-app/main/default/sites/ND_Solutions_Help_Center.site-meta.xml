@@ -21,7 +21,6 @@
     <masterLabel>ND Solutions Help Center</masterLabel>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <requireHttps>true</requireHttps>
-    <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>nilesh.ndethe-tbfw@force.com</siteAdmin>
     <siteType>ChatterNetwork</siteType>

@@ -1,0 +1,15 @@
+<!--
+  @File Name          : backgroundUtilityDemo.cmp
+  @description        : 
+  @Author             : Nilesh Dethe
+  @Group              : 
+  @Last Modified By   : Nilesh Dethe
+  @Last Modified On   : 5/21/2020, 6:13:31 PM
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    5/21/2020   Nilesh Dethe     Initial Version
+-->
+<aura:component implements="lightning:backgroundUtilityItem">
+  <aura:handler name="init" value="{!this}" action="{!c.init}" />
+  <lightning:overlayLibrary aura:id="overlayLib" />
+</aura:component>

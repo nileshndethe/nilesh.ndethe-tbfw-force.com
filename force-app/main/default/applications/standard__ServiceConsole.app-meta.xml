@@ -180,7 +180,11 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Knowledge</tabs>
+    <tabs>Customers__x</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Customers__x</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

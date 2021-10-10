@@ -11,9 +11,13 @@
     <label>My Service Console</label>
     <navType>Console</navType>
     <tabs>standard-Account</tabs>
+    <tabs>Customers__x</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>My_Service_Console_UtilityBar1</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Customers__x</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

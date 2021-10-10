@@ -3,7 +3,7 @@
     <fullName>agf__Team_Member_Allocation__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <formula>HYPERLINK(&#39;/apex/adm_teammemberallocation?Id=&#39; +  Id, &#39;view&#39; )</formula>
+    <formula>HYPERLINK(&apos;/apex/adm_teammemberallocation?Id=&apos; +  Id, &apos;view&apos; )</formula>
     <label>Team Member Allocation</label>
     <required>false</required>
     <type>Text</type>

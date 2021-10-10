@@ -5,7 +5,7 @@
     <encodingKey>UTF-8</encodingKey>
     <name>Communities: User Lockout Email</name>
     <style>none</style>
-    <subject>You&#39;ve been locked out of {!Community_Name}</subject>
+    <subject>You&apos;ve been locked out of {!Community_Name}</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>
