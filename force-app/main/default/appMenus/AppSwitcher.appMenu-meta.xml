@@ -160,4 +160,8 @@
         <name>CV_App_Lightning</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Action_Plans</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
